@@ -1,0 +1,3062 @@
+[
+    {
+        "ten": "Cơm trắng",
+        "don_vi_tinh": "1 chén vừa",
+        "calo": "200",
+        "protein": "4.6",
+        "lipit": "0.6",
+        "carbohydrat": "44.2",
+        "fiber": "0.23",
+        "loai": "Cơm"
+    },
+    {
+        "ten": "Cơm trắng",
+        "don_vi_tinh": "1 đĩa cơm phần",
+        "calo": "406",
+        "protein": "9.3",
+        "lipit": "1.2",
+        "carbohydrat": "89.9",
+        "fiber": "0.47",
+        "loai": "Cơm"
+    },
+    {
+        "ten": "Bầu xào trứng",
+        "don_vi_tinh": "1 đĩa",
+        "calo": "109",
+        "protein": "4",
+        "lipit": "8.5",
+        "carbohydrat": "4",
+        "fiber": "1.3",
+        "loai": "Rau, củ"
+    },
+    {
+        "ten": "Bò bía",
+        "don_vi_tinh": "3 cuốn",
+        "calo": "93",
+        "protein": "5.8",
+        "lipit": "4.3",
+        "carbohydrat": "7.7",
+        "fiber": "0.47",
+        "loai": "Món phụ"
+    },
+    {
+        "ten": "Bò cuốn lá lốt",
+        "don_vi_tinh": "8 cuốn",
+        "calo": "841",
+        "protein": "49",
+        "lipit": "12.5",
+        "carbohydrat": "133.1",
+        "fiber": "6.86",
+        "loai": "Thịt bò"
+    },
+    {
+        "ten": "Bò cuốn mỡ chài",
+        "don_vi_tinh": "8 cuốn",
+        "calo": "1180",
+        "protein": "60.4",
+        "lipit": "46.1",
+        "carbohydrat": "130.9",
+        "fiber": "5.86",
+        "loai": "Thịt bò"
+    },
+    {
+        "ten": "Cá bạc má chiên",
+        "don_vi_tinh": "1 con",
+        "calo": "135",
+        "protein": "13.1",
+        "lipit": "9.1",
+        "carbohydrat": "0",
+        "fiber": "0",
+        "loai": "Hải sản"
+    },
+    {
+        "ten": "Cá bạc má kho",
+        "don_vi_tinh": "1 con",
+        "calo": "167",
+        "protein": "21.1",
+        "lipit": "5.3",
+        "carbohydrat": "8.7",
+        "fiber": "0.04",
+        "loai": "Hải sản"
+    },
+    {
+        "ten": "Cá cơm lăn bột chiên",
+        "don_vi_tinh": "1 đĩa",
+        "calo": "195",
+        "protein": "9.7",
+        "lipit": "9.7",
+        "carbohydrat": "17.3",
+        "fiber": "0.15",
+        "loai": "Hải sản"
+    },
+    {
+        "ten": "Cá chép chưng tương",
+        "don_vi_tinh": "1 con",
+        "calo": "156",
+        "protein": "16.4",
+        "lipit": "6.6",
+        "carbohydrat": "7.9",
+        "fiber": "0.11",
+        "loai": "Hải sản"
+    },
+    {
+        "ten": "Cá chim chiên",
+        "don_vi_tinh": "1 con",
+        "calo": "111",
+        "protein": "10.5",
+        "lipit": "7.6",
+        "carbohydrat": "0",
+        "fiber": "0",
+        "loai": "Hải sản"
+    },
+    {
+        "ten": "Cá đối chiên",
+        "don_vi_tinh": "1 con",
+        "calo": "108",
+        "protein": "9.8",
+        "lipit": "7.7",
+        "carbohydrat": "0",
+        "fiber": "0",
+        "loai": "Hải sản"
+    },
+    {
+        "ten": "Cá đối kho",
+        "don_vi_tinh": "1 con",
+        "calo": "82",
+        "protein": "10.2",
+        "lipit": "2.7",
+        "carbohydrat": "4.4",
+        "fiber": "0.02",
+        "loai": "Hải sản"
+    },
+    {
+        "ten": "Cá hú kho",
+        "don_vi_tinh": "1 lát cá",
+        "calo": "184",
+        "protein": "15.6",
+        "lipit": "9.7",
+        "carbohydrat": "8.7",
+        "fiber": "0.04",
+        "loai": "Hải sản"
+    },
+    {
+        "ten": "Cá lóc chiên",
+        "don_vi_tinh": "1 lát",
+        "calo": "169",
+        "protein": "14.9",
+        "lipit": "12.2",
+        "carbohydrat": "0",
+        "fiber": "0",
+        "loai": "Hải sản"
+    },
+    {
+        "ten": "Cá lóc kho",
+        "don_vi_tinh": "1 lát cá",
+        "calo": "131",
+        "protein": "15.7",
+        "lipit": "3.8",
+        "carbohydrat": "8.7",
+        "fiber": "0.04",
+        "loai": "Hải sản"
+    },
+    {
+        "ten": "Cá ngừ kho",
+        "don_vi_tinh": "1 lát cá",
+        "calo": "122",
+        "protein": "17.7",
+        "lipit": "1.8",
+        "carbohydrat": "8.7",
+        "fiber": "0.04",
+        "loai": "Hải sản"
+    },
+    {
+        "ten": "Cá trê chiên",
+        "don_vi_tinh": "1 con",
+        "calo": "219",
+        "protein": "12.4",
+        "lipit": "18.9",
+        "carbohydrat": "0",
+        "fiber": "0",
+        "loai": "Hải sản"
+    },
+    {
+        "ten": "Cá viên kho",
+        "don_vi_tinh": "10 viên nhỏ",
+        "calo": "100",
+        "protein": "15.1",
+        "lipit": "2.8",
+        "carbohydrat": "3.5",
+        "fiber": "0.01",
+        "loai": "Hải sản"
+    },
+    {
+        "ten": "Canh bắp cải",
+        "don_vi_tinh": "1 chén",
+        "calo": "37",
+        "protein": "1.8",
+        "lipit": "2.1",
+        "carbohydrat": "2.8",
+        "fiber": "0.82",
+        "loai": "Canh"
+    },
+    {
+        "ten": "Canh bầu",
+        "don_vi_tinh": "1 chén",
+        "calo": "30",
+        "protein": "1.2",
+        "lipit": "2.1",
+        "carbohydrat": "1.5",
+        "fiber": "0.52",
+        "loai": "Canh"
+    },
+    {
+        "ten": "Canh bí đao",
+        "don_vi_tinh": "1 chén",
+        "calo": "29",
+        "protein": "1.2",
+        "lipit": "2.1",
+        "carbohydrat": "1.3",
+        "fiber": "0.52",
+        "loai": "Canh"
+    },
+    {
+        "ten": "Canh bí rợ",
+        "don_vi_tinh": "1 chén",
+        "calo": "42",
+        "protein": "1.2",
+        "lipit": "2.1",
+        "carbohydrat": "4.6",
+        "fiber": "0.64",
+        "loai": "Canh"
+    },
+    {
+        "ten": "Canh cải ngọt",
+        "don_vi_tinh": "1 chén",
+        "calo": "30",
+        "protein": "1.7",
+        "lipit": "2.1",
+        "carbohydrat": "1.1",
+        "fiber": "0.9",
+        "loai": "Canh"
+    },
+    {
+        "ten": "Canh chua",
+        "don_vi_tinh": "1 chén",
+        "calo": "29",
+        "protein": "1.9",
+        "lipit": "1.1",
+        "carbohydrat": "2.9",
+        "fiber": "1.19",
+        "loai": "Canh"
+    },
+    {
+        "ten": "Canh hẹ",
+        "don_vi_tinh": "1 chén",
+        "calo": "33",
+        "protein": "2.9",
+        "lipit": "2.1",
+        "carbohydrat": "0.7",
+        "fiber": "0.35",
+        "loai": "Canh"
+    },
+    {
+        "ten": "Canh khoai mỡ",
+        "don_vi_tinh": "1 chén",
+        "calo": "51",
+        "protein": "1.5",
+        "lipit": "1.1",
+        "carbohydrat": "8.7",
+        "fiber": "0.56",
+        "loai": "Canh"
+    },
+    {
+        "ten": "Canh khổ qua hầm",
+        "don_vi_tinh": "1 chén",
+        "calo": "175",
+        "protein": "10",
+        "lipit": "11.4",
+        "carbohydrat": "7.9",
+        "fiber": "1.4",
+        "loai": "Canh"
+    },
+    {
+        "ten": "Canh mướp",
+        "don_vi_tinh": "1 chén",
+        "calo": "31",
+        "protein": "1.4",
+        "lipit": "2.1",
+        "carbohydrat": "1.6",
+        "fiber": "0.27",
+        "loai": "Canh"
+    },
+    {
+        "ten": "Canh rau dền",
+        "don_vi_tinh": "1 chén",
+        "calo": "22",
+        "protein": "0.9",
+        "lipit": "2.1",
+        "carbohydrat": "0.1",
+        "fiber": "0",
+        "loai": "Canh"
+    },
+    {
+        "ten": "Canh rau ngót",
+        "don_vi_tinh": "1 chén",
+        "calo": "29",
+        "protein": "1.9",
+        "lipit": "2.1",
+        "carbohydrat": "0.7",
+        "fiber": "0.5",
+        "loai": "Canh"
+    },
+    {
+        "ten": "Cơm tấm bì",
+        "don_vi_tinh": "1 đĩa cơm phần",
+        "calo": "627",
+        "protein": "26",
+        "lipit": "19.3",
+        "carbohydrat": "87.6",
+        "fiber": "0.48",
+        "loai": "Cơm suất"
+    },
+    {
+        "ten": "Cơm tấm chả",
+        "don_vi_tinh": "1 đĩa cơm phần",
+        "calo": "592",
+        "protein": "17",
+        "lipit": "18.1",
+        "carbohydrat": "90.7",
+        "fiber": "1.03",
+        "loai": "Cơm suất"
+    },
+    {
+        "ten": "Cơm tấm sườn",
+        "don_vi_tinh": "1 đĩa cơm phần",
+        "calo": "527",
+        "protein": "20.7",
+        "lipit": "13.3",
+        "carbohydrat": "81.6",
+        "fiber": "0.44",
+        "loai": "Cơm suất"
+    },
+    {
+        "ten": "Chả cá thác lác chiên",
+        "don_vi_tinh": "1 miếng tròn",
+        "calo": "133",
+        "protein": "11.3",
+        "lipit": "9.7",
+        "carbohydrat": "0.2",
+        "fiber": "0.04",
+        "loai": "Chả"
+    },
+    {
+        "ten": "Chả giò chiên",
+        "don_vi_tinh": "10 cuốn",
+        "calo": "41",
+        "protein": "1.8",
+        "lipit": "2.1",
+        "carbohydrat": "3.6",
+        "fiber": "0.1",
+        "loai": "Chả"
+    },
+    {
+        "ten": "Chả lụa kho",
+        "don_vi_tinh": "1 khoanh",
+        "calo": "102",
+        "protein": "11.7",
+        "lipit": "4.6",
+        "carbohydrat": "3.5",
+        "fiber": "0.01",
+        "loai": "Chả"
+    },
+    {
+        "ten": "Chả trứng chưng",
+        "don_vi_tinh": "1 lát",
+        "calo": "195",
+        "protein": "11.3",
+        "lipit": "13.9",
+        "carbohydrat": "6",
+        "fiber": "0.35",
+        "loai": "Chả"
+    },
+    {
+        "ten": "Chim cút chiên bơ",
+        "don_vi_tinh": "1 con",
+        "calo": "208",
+        "protein": "10.6",
+        "lipit": "16.9",
+        "carbohydrat": "2.3",
+        "fiber": "0.04",
+        "loai": "Chim"
+    },
+    {
+        "ten": "Đậu hủ dồn thịt",
+        "don_vi_tinh": "1 miếng lớn",
+        "calo": "328",
+        "protein": "18.7",
+        "lipit": "25.8",
+        "carbohydrat": "5.3",
+        "fiber": "0.58",
+        "loai": "Đậu"
+    },
+    {
+        "ten": "Gà kho gừng",
+        "don_vi_tinh": "1 đĩa",
+        "calo": "301",
+        "protein": "21.9",
+        "lipit": "19.1",
+        "carbohydrat": "10.3",
+        "fiber": "0.91",
+        "loai": "Thịt gà"
+    },
+    {
+        "ten": "Gà rô ti",
+        "don_vi_tinh": "1 cái đùi",
+        "calo": "300",
+        "protein": "20.3",
+        "lipit": "23.1",
+        "carbohydrat": "2.8",
+        "fiber": "0",
+        "loai": "Thịt gà"
+    },
+    {
+        "ten": "Gà xào sả ớt",
+        "don_vi_tinh": "1 đĩa",
+        "calo": "272",
+        "protein": "20.4",
+        "lipit": "19.1",
+        "carbohydrat": "4.7",
+        "fiber": "0",
+        "loai": "Thịt gà"
+    },
+    {
+        "ten": "Gan heo xào",
+        "don_vi_tinh": "1 đĩa",
+        "calo": "200",
+        "protein": "24.8",
+        "lipit": "9.7",
+        "carbohydrat": "3.4",
+        "fiber": "0.15",
+        "loai": "Lòng, nội tạng"
+    },
+    {
+        "ten": "Gỏi bì cuốn",
+        "don_vi_tinh": "3 cuốn",
+        "calo": "116",
+        "protein": "10.3",
+        "lipit": "3.6",
+        "carbohydrat": "10.6",
+        "fiber": "0.25",
+        "loai": "Gỏi"
+    },
+    {
+        "ten": "Gỏi khô bò",
+        "don_vi_tinh": "1 đĩa",
+        "calo": "268",
+        "protein": "15.8",
+        "lipit": "11.5",
+        "carbohydrat": "25.1",
+        "fiber": "2.08",
+        "loai": "Gỏi"
+    },
+    {
+        "ten": "Gỏi tôm cuốn",
+        "don_vi_tinh": "3 cuốn",
+        "calo": "147",
+        "protein": "7.7",
+        "lipit": "5",
+        "carbohydrat": "17.8",
+        "fiber": "0.76",
+        "loai": "Gỏi"
+    },
+    {
+        "ten": "Khoai tây bò bít tết",
+        "don_vi_tinh": "1 đĩa",
+        "calo": "246",
+        "protein": "12.4",
+        "lipit": "12.9",
+        "carbohydrat": "20.2",
+        "fiber": "0.96",
+        "loai": "Thịt bò"
+    },
+    {
+        "ten": "Khổ qua xào trứng",
+        "don_vi_tinh": "1 đĩa",
+        "calo": "114",
+        "protein": "4.6",
+        "lipit": "8.5",
+        "carbohydrat": "4.6",
+        "fiber": "1.58",
+        "loai": "Rau, củ"
+    },
+    {
+        "ten": "Lạp xưởng chiên",
+        "don_vi_tinh": "1 cái",
+        "calo": "293",
+        "protein": "10.4",
+        "lipit": "27.5",
+        "carbohydrat": "0.9",
+        "fiber": "0",
+        "loai": "Khác"
+    },
+    {
+        "ten": "Mắm chưng",
+        "don_vi_tinh": "1 miếng tròn",
+        "calo": "194",
+        "protein": "13.3",
+        "lipit": "13.7",
+        "carbohydrat": "4.4",
+        "fiber": "0.37",
+        "loai": "Khác"
+    },
+    {
+        "ten": "Mực xào sả ớt",
+        "don_vi_tinh": "1 đĩa",
+        "calo": "184",
+        "protein": "31",
+        "lipit": "6.7",
+        "carbohydrat": "0.1",
+        "fiber": "0.03",
+        "loai": "Hải sản"
+    },
+    {
+        "ten": "Mực xào thập cẩm",
+        "don_vi_tinh": "1 đĩa",
+        "calo": "136",
+        "protein": "17.4",
+        "lipit": "5.9",
+        "carbohydrat": "3.5",
+        "fiber": "0.58",
+        "loai": "Hải sản"
+    },
+    {
+        "ten": "Sườn nướng",
+        "don_vi_tinh": "1 miếng",
+        "calo": "111",
+        "protein": "10.3",
+        "lipit": "7.3",
+        "carbohydrat": "1",
+        "fiber": "0.01",
+        "loai": "Thịt lợn"
+    },
+    {
+        "ten": "Sườn ram",
+        "don_vi_tinh": "1 miếng",
+        "calo": "155",
+        "protein": "10.9",
+        "lipit": "11.3",
+        "carbohydrat": "2.6",
+        "fiber": "0.06",
+        "loai": "Thịt lợn"
+    },
+    {
+        "ten": "Tép rang",
+        "don_vi_tinh": "10 con",
+        "calo": "101",
+        "protein": "5.6",
+        "lipit": "6.5",
+        "carbohydrat": "4.8",
+        "fiber": "0.02",
+        "loai": "Khác"
+    },
+    {
+        "ten": "Thị heo quay",
+        "don_vi_tinh": "1 đĩa",
+        "calo": "146",
+        "protein": "9.2",
+        "lipit": "12",
+        "carbohydrat": "0",
+        "fiber": "0",
+        "loai": "Thịt lợn"
+    },
+    {
+        "ten": "Thịt bò xào đậu que",
+        "don_vi_tinh": "1 đĩa",
+        "calo": "195",
+        "protein": "16.8",
+        "lipit": "6.9",
+        "carbohydrat": "16.6",
+        "fiber": "1.25",
+        "loai": "Thịt bò"
+    },
+    {
+        "ten": "Thịt bò xào giá hẹ",
+        "don_vi_tinh": "1 đĩa",
+        "calo": "143",
+        "protein": "15.6",
+        "lipit": "6.9",
+        "carbohydrat": "4.8",
+        "fiber": "1.87",
+        "loai": "Thịt bò"
+    },
+    {
+        "ten": "Thịt bò xào hành tây",
+        "don_vi_tinh": "1 đĩa",
+        "calo": "132",
+        "protein": "11.8",
+        "lipit": "6.9",
+        "carbohydrat": "5.8",
+        "fiber": "0.77",
+        "loai": "Thịt bò"
+    },
+    {
+        "ten": "Thịt bò xào măng",
+        "don_vi_tinh": "1 đĩa",
+        "calo": "104",
+        "protein": "10.5",
+        "lipit": "6.9",
+        "carbohydrat": "0",
+        "fiber": "0",
+        "loai": "Thịt bò"
+    },
+    {
+        "ten": "Thịt bò xào nấm rơm",
+        "don_vi_tinh": "1 đĩa",
+        "calo": "152",
+        "protein": "13.5",
+        "lipit": "9.6",
+        "carbohydrat": "2.9",
+        "fiber": "0.92",
+        "loai": "Thịt bò"
+    },
+    {
+        "ten": "Thịt heo phá lấu",
+        "don_vi_tinh": "1 đĩa",
+        "calo": "242",
+        "protein": "13.9",
+        "lipit": "19.9",
+        "carbohydrat": "1.6",
+        "fiber": "0.05",
+        "loai": "Thịt lợn"
+    },
+    {
+        "ten": "Thịt heo xào đậu que",
+        "don_vi_tinh": "1 đĩa",
+        "calo": "240",
+        "protein": "20.5",
+        "lipit": "10.2",
+        "carbohydrat": "16.6",
+        "fiber": "1.25",
+        "loai": "Thịt lợn"
+    },
+    {
+        "ten": "Thịt heo xào giá hẹ",
+        "don_vi_tinh": "1 đĩa",
+        "calo": "188",
+        "protein": "19.3",
+        "lipit": "10.2",
+        "carbohydrat": "4.8",
+        "fiber": "1.87",
+        "loai": "Thịt lợn"
+    },
+    {
+        "ten": "Thịt kho tiêu",
+        "don_vi_tinh": "1 đĩa",
+        "calo": "200",
+        "protein": "21.2",
+        "lipit": "7.6",
+        "carbohydrat": "11.5",
+        "fiber": "0.17",
+        "loai": "Thịt lợn"
+    },
+    {
+        "ten": "Thịt kho trứng",
+        "don_vi_tinh": "1 trứng+2 miếng thịt",
+        "calo": "315",
+        "protein": "19.8",
+        "lipit": "22.9",
+        "carbohydrat": "7.5",
+        "fiber": "0",
+        "loai": "Thịt lợn"
+    },
+    {
+        "ten": "Xíu mại",
+        "don_vi_tinh": "2 viên",
+        "calo": "104",
+        "protein": "11.9",
+        "lipit": "4.2",
+        "carbohydrat": "4.6",
+        "fiber": "0.3",
+        "loai": "Khác"
+    },
+    {
+        "ten": "Bánh bao chay",
+        "don_vi_tinh": "2 cái",
+        "calo": "220",
+        "protein": "10.5",
+        "lipit": "4.7",
+        "carbohydrat": "34",
+        "fiber": "0.61",
+        "loai": "Bánh"
+    },
+    {
+        "ten": "Bông cải xào thập cẩm",
+        "don_vi_tinh": "1 đĩa",
+        "calo": "142",
+        "protein": "6.7",
+        "lipit": "6.3",
+        "carbohydrat": "14.6",
+        "fiber": "2.8",
+        "loai": "Rau, củ"
+    },
+    {
+        "ten": "Bún bò huế",
+        "don_vi_tinh": "1 tô",
+        "calo": "479",
+        "protein": "18.4",
+        "lipit": "16",
+        "carbohydrat": "65.3",
+        "fiber": "3.3",
+        "loai": "Món sợi, nước"
+    },
+    {
+        "ten": "Bún riêu",
+        "don_vi_tinh": "1 tô",
+        "calo": "482",
+        "protein": "16.5",
+        "lipit": "16.8",
+        "carbohydrat": "66",
+        "fiber": "3.4",
+        "loai": "Món sợi, nước"
+    },
+    {
+        "ten": "Bún thịt nướng",
+        "don_vi_tinh": "1 tô",
+        "calo": "451",
+        "protein": "14.7",
+        "lipit": "13.7",
+        "carbohydrat": "67.3",
+        "fiber": "3.96",
+        "loai": "Món sợi, nước"
+    },
+    {
+        "ten": "Bún xào",
+        "don_vi_tinh": "1 đĩa",
+        "calo": "570",
+        "protein": "23.4",
+        "lipit": "28",
+        "carbohydrat": "56",
+        "fiber": "2.17",
+        "loai": "Món sợi, nước"
+    },
+    {
+        "ten": "Cá cơm lăn bột chiên",
+        "don_vi_tinh": "1 đĩa",
+        "calo": "316",
+        "protein": "6.7",
+        "lipit": "17.3",
+        "carbohydrat": "33.4",
+        "fiber": "0.64",
+        "loai": "Hải sản"
+    },
+    {
+        "ten": "Cà chua dồn thịt",
+        "don_vi_tinh": "2 trái",
+        "calo": "131",
+        "protein": "7.3",
+        "lipit": "7.2",
+        "carbohydrat": "9.2",
+        "fiber": "0.78",
+        "loai": "Thịt lợn"
+    },
+    {
+        "ten": "Cá mòi kho",
+        "don_vi_tinh": "1 đĩa",
+        "calo": "105",
+        "protein": "4.3",
+        "lipit": "5",
+        "carbohydrat": "10.8",
+        "fiber": "2.9",
+        "loai": "Hải sản"
+    },
+    {
+        "ten": "Cà ri",
+        "don_vi_tinh": "1 tô",
+        "calo": "278",
+        "protein": "7.8",
+        "lipit": "11.4",
+        "carbohydrat": "36",
+        "fiber": "1.86",
+        "loai": "Khác"
+    },
+    {
+        "ten": "Cà tím nướng",
+        "don_vi_tinh": "1 đĩa",
+        "calo": "33",
+        "protein": "1.5",
+        "lipit": "0",
+        "carbohydrat": "6.8",
+        "fiber": "2.25",
+        "loai": "Rau, củ"
+    },
+    {
+        "ten": "Canh chua",
+        "don_vi_tinh": "1 tô",
+        "calo": "37",
+        "protein": "1.7",
+        "lipit": "1",
+        "carbohydrat": "5.2",
+        "fiber": "1.18",
+        "loai": "Canh"
+    },
+    {
+        "ten": "Canh kiểm",
+        "don_vi_tinh": "1 tô",
+        "calo": "291",
+        "protein": "5.4",
+        "lipit": "13.1",
+        "carbohydrat": "37.7",
+        "fiber": "1.67",
+        "loai": "Canh"
+    },
+    {
+        "ten": "Canh khổ qua hầm",
+        "don_vi_tinh": "1 tô",
+        "calo": "88",
+        "protein": "4.5",
+        "lipit": "4",
+        "carbohydrat": "8.3",
+        "fiber": "1.13",
+        "loai": "Canh"
+    },
+    {
+        "ten": "Canh rau ngót",
+        "don_vi_tinh": "1 tô",
+        "calo": "23",
+        "protein": "1.6",
+        "lipit": "1.4",
+        "carbohydrat": "1.1",
+        "fiber": "0.63",
+        "loai": "Canh"
+    },
+    {
+        "ten": "Cơm chiên dương châu",
+        "don_vi_tinh": "1 đĩa",
+        "calo": "530",
+        "protein": "14.9",
+        "lipit": "11.3",
+        "carbohydrat": "92.7",
+        "fiber": "1.56",
+        "loai": "Cơm suất"
+    },
+    {
+        "ten": "Chả lụa chiên",
+        "don_vi_tinh": "1 cái tròn",
+        "calo": "336",
+        "protein": "36.7",
+        "lipit": "18.5",
+        "carbohydrat": "5.7",
+        "fiber": "0.22",
+        "loai": "Chả"
+    },
+    {
+        "ten": "Chả trứng chưng",
+        "don_vi_tinh": "1 đĩa",
+        "calo": "127",
+        "protein": "10.8",
+        "lipit": "5.1",
+        "carbohydrat": "9.4",
+        "fiber": "0.72",
+        "loai": "Chả"
+    },
+    {
+        "ten": "Đậu hủ chiên xả",
+        "don_vi_tinh": "1 miếng",
+        "calo": "148",
+        "protein": "11.6",
+        "lipit": "11",
+        "carbohydrat": "0.7",
+        "fiber": "0.4",
+        "loai": "Đậu"
+    },
+    {
+        "ten": "Đậu hủ dồn thịt",
+        "don_vi_tinh": "1 miếng",
+        "calo": "196",
+        "protein": "9.1",
+        "lipit": "14.3",
+        "carbohydrat": "7.8",
+        "fiber": "0.58",
+        "loai": "Đậu"
+    },
+    {
+        "ten": "Đậu hủ sốt cà",
+        "don_vi_tinh": "1 đĩa",
+        "calo": "239",
+        "protein": "18.1",
+        "lipit": "13.6",
+        "carbohydrat": "11",
+        "fiber": "1.44",
+        "loai": "Đậu"
+    },
+    {
+        "ten": "Đùi gà chiên",
+        "don_vi_tinh": "1 cái",
+        "calo": "173",
+        "protein": "11",
+        "lipit": "12.3",
+        "carbohydrat": "4.6",
+        "fiber": "0.2",
+        "loai": "Thịt gà"
+    },
+    {
+        "ten": "Gỏi bắp chuối",
+        "don_vi_tinh": "1 đĩa",
+        "calo": "124",
+        "protein": "5.1",
+        "lipit": "6.4",
+        "carbohydrat": "11.3",
+        "fiber": "3.24",
+        "loai": "Gỏi"
+    },
+    {
+        "ten": "Gỏi ngó sen",
+        "don_vi_tinh": "1 đĩa",
+        "calo": "286",
+        "protein": "12.2",
+        "lipit": "9.3",
+        "carbohydrat": "38.4",
+        "fiber": "2.62",
+        "loai": "Gỏi"
+    },
+    {
+        "ten": "Hủ tíu bò kho",
+        "don_vi_tinh": "1 tô",
+        "calo": "410",
+        "protein": "17",
+        "lipit": "13.4",
+        "carbohydrat": "55.4",
+        "fiber": "3.2",
+        "loai": "Thịt bò"
+    },
+    {
+        "ten": "Mắm Thái",
+        "don_vi_tinh": "1 đĩa",
+        "calo": "167",
+        "protein": "11.1",
+        "lipit": "7.4",
+        "carbohydrat": "13.9",
+        "fiber": "6.21",
+        "loai": "Khác"
+    },
+    {
+        "ten": "Măng kho thập cẩm",
+        "don_vi_tinh": "1 đĩa",
+        "calo": "141",
+        "protein": "8.9",
+        "lipit": "6.2",
+        "carbohydrat": "12.5",
+        "fiber": "1.71",
+        "loai": "Rau, củ"
+    },
+    {
+        "ten": "Mì bò viên",
+        "don_vi_tinh": "1 tô",
+        "calo": "456",
+        "protein": "19.5",
+        "lipit": "14.4",
+        "carbohydrat": "62.1",
+        "fiber": "3.37",
+        "loai": "Món sợi, nước"
+    },
+    {
+        "ten": "Mì căn xào sả",
+        "don_vi_tinh": "1 đĩa",
+        "calo": "299",
+        "protein": "7.7",
+        "lipit": "5.8",
+        "carbohydrat": "53.9",
+        "fiber": "0.21",
+        "loai": "Món sợi, nước"
+    },
+    {
+        "ten": "Mít kho",
+        "don_vi_tinh": "1 đĩa",
+        "calo": "100",
+        "protein": "3.7",
+        "lipit": "5",
+        "carbohydrat": "10",
+        "fiber": "3",
+        "loai": "Rau, củ"
+    },
+    {
+        "ten": "Nấm rơm kho",
+        "don_vi_tinh": "1 đĩa",
+        "calo": "154",
+        "protein": "7.5",
+        "lipit": "10.5",
+        "carbohydrat": "7.3",
+        "fiber": "0.9",
+        "loai": "Rau, củ"
+    },
+    {
+        "ten": "Sườn nướng",
+        "don_vi_tinh": "1 miếng",
+        "calo": "123",
+        "protein": "10.6",
+        "lipit": "7.2",
+        "carbohydrat": "4.1",
+        "fiber": "0.06",
+        "loai": "Thịt lợn"
+    },
+    {
+        "ten": "Sườn ram",
+        "don_vi_tinh": "1 miếng",
+        "calo": "264",
+        "protein": "8.3",
+        "lipit": "5.8",
+        "carbohydrat": "46.7",
+        "fiber": "0.19",
+        "loai": "Thịt lợn"
+    },
+    {
+        "ten": "Tàu hủ ky chiên",
+        "don_vi_tinh": "1 đĩa",
+        "calo": "306",
+        "protein": "37.2",
+        "lipit": "15.4",
+        "carbohydrat": "4.8",
+        "fiber": "0.22",
+        "loai": "Khác"
+    },
+    {
+        "ten": "Tôm lăn bột chiên",
+        "don_vi_tinh": "1 đĩa",
+        "calo": "247",
+        "protein": "2.6",
+        "lipit": "10.1",
+        "carbohydrat": "36.3",
+        "fiber": "0.51",
+        "loai": "Hải sản"
+    },
+    {
+        "ten": "Tôm sốt cà",
+        "don_vi_tinh": "1 đĩa",
+        "calo": "248",
+        "protein": "12.5",
+        "lipit": "9.3",
+        "carbohydrat": "28.6",
+        "fiber": "1.25",
+        "loai": "Hải sản"
+    },
+    {
+        "ten": "Thịt heo quay",
+        "don_vi_tinh": "1 đĩa",
+        "calo": "250",
+        "protein": "7",
+        "lipit": "14.1",
+        "carbohydrat": "23.7",
+        "fiber": "1.38",
+        "loai": "Thịt lợn"
+    },
+    {
+        "ten": "Thịt kho tiêu",
+        "don_vi_tinh": "1 đĩa",
+        "calo": "312",
+        "protein": "22.5",
+        "lipit": "16",
+        "carbohydrat": "19.5",
+        "fiber": "2.7",
+        "loai": "Thịt lợn"
+    },
+    {
+        "ten": "Bánh canh cua",
+        "don_vi_tinh": "1 tô",
+        "calo": "379",
+        "protein": "21.4",
+        "lipit": "8.4",
+        "carbohydrat": "54.3",
+        "fiber": "2.19",
+        "loai": "Món sợi, nước"
+    },
+    {
+        "ten": "Bánh canh giò heo",
+        "don_vi_tinh": "1 tô",
+        "calo": "483",
+        "protein": "19",
+        "lipit": "23.6",
+        "carbohydrat": "48.6",
+        "fiber": "1.01",
+        "loai": "Món sợi, nước"
+    },
+    {
+        "ten": "Bánh canh thịt gà",
+        "don_vi_tinh": "1 tô",
+        "calo": "346",
+        "protein": "12.8",
+        "lipit": "11.1",
+        "carbohydrat": "48.5",
+        "fiber": "1",
+        "loai": "Món sợi, nước"
+    },
+    {
+        "ten": "Bánh canh thịt heo",
+        "don_vi_tinh": "1 tô",
+        "calo": "322",
+        "protein": "12.8",
+        "lipit": "8.5",
+        "carbohydrat": "48.5",
+        "fiber": "1",
+        "loai": "Món sợi, nước"
+    },
+    {
+        "ten": "Bột chiên",
+        "don_vi_tinh": "1 đĩa",
+        "calo": "443",
+        "protein": "13.2",
+        "lipit": "25.8",
+        "carbohydrat": "39.5",
+        "fiber": "0.55",
+        "loai": "Khác"
+    },
+    {
+        "ten": "Bún bò huế (giò)",
+        "don_vi_tinh": "1 tô",
+        "calo": "622",
+        "protein": "30.2",
+        "lipit": "30.6",
+        "carbohydrat": "56.4",
+        "fiber": "2.76",
+        "loai": "Món sợi, nước"
+    },
+    {
+        "ten": "Bún mắm",
+        "don_vi_tinh": "1 tô",
+        "calo": "480",
+        "protein": "28.2",
+        "lipit": "15.5",
+        "carbohydrat": "56.8",
+        "fiber": "3.26",
+        "loai": "Món sợi, nước"
+    },
+    {
+        "ten": "Bún măng",
+        "don_vi_tinh": "1 tô",
+        "calo": "485",
+        "protein": "20.9",
+        "lipit": "19.5",
+        "carbohydrat": "56.4",
+        "fiber": "4.21",
+        "loai": "Món sợi, nước"
+    },
+    {
+        "ten": "Bún mộc",
+        "don_vi_tinh": "1 tô",
+        "calo": "514",
+        "protein": "28.1",
+        "lipit": "19.4",
+        "carbohydrat": "56.5",
+        "fiber": "2.83",
+        "loai": "Món sợi, nước"
+    },
+    {
+        "ten": "Bún riêu cua",
+        "don_vi_tinh": "1 tô",
+        "calo": "414",
+        "protein": "17.8",
+        "lipit": "12.2",
+        "carbohydrat": "58",
+        "fiber": "2.76",
+        "loai": "Món sợi, nước"
+    },
+    {
+        "ten": "Bún riêu ốc",
+        "don_vi_tinh": "1 tô",
+        "calo": "531",
+        "protein": "28.4",
+        "lipit": "17.2",
+        "carbohydrat": "65.5",
+        "fiber": "2.73",
+        "loai": "Món sợi, nước"
+    },
+    {
+        "ten": "Bún thịt nướng chả giò",
+        "don_vi_tinh": "1 tô",
+        "calo": "598",
+        "protein": "24",
+        "lipit": "21.16",
+        "carbohydrat": "77.9",
+        "fiber": "2.72",
+        "loai": "Món sợi, nước"
+    },
+    {
+        "ten": "Canh bún",
+        "don_vi_tinh": "1 tô",
+        "calo": "296",
+        "protein": "13.6",
+        "lipit": "6.9",
+        "carbohydrat": "44.6",
+        "fiber": "1.55",
+        "loai": "Canh"
+    },
+    {
+        "ten": "Cháo đậu đỏ",
+        "don_vi_tinh": "1 tô",
+        "calo": "322",
+        "protein": "10.6",
+        "lipit": "11.8",
+        "carbohydrat": "43.7",
+        "fiber": "2.42",
+        "loai": "Cháo"
+    },
+    {
+        "ten": "Cháo gỏi vịt",
+        "don_vi_tinh": "1 tô",
+        "calo": "930",
+        "protein": "50.2",
+        "lipit": "60.3",
+        "carbohydrat": "47.1",
+        "fiber": "2.62",
+        "loai": "Cháo"
+    },
+    {
+        "ten": "Cháo huyết",
+        "don_vi_tinh": "1 tô",
+        "calo": "332",
+        "protein": "22.1",
+        "lipit": "8.9",
+        "carbohydrat": "40.8",
+        "fiber": "0.84",
+        "loai": "Cháo"
+    },
+    {
+        "ten": "Cháo lòng",
+        "don_vi_tinh": "1 tô",
+        "calo": "412",
+        "protein": "30.8",
+        "lipit": "13.5",
+        "carbohydrat": "41.7",
+        "fiber": "0.84",
+        "loai": "Cháo"
+    },
+    {
+        "ten": "Hoành thánh",
+        "don_vi_tinh": "1 tô",
+        "calo": "248",
+        "protein": "12.3",
+        "lipit": "7.4",
+        "carbohydrat": "31.7",
+        "fiber": "1.26",
+        "loai": "Khác"
+    },
+    {
+        "ten": "Hủ tíu bò kho",
+        "don_vi_tinh": "1 tô",
+        "calo": "538",
+        "protein": "34.2",
+        "lipit": "26",
+        "carbohydrat": "41.6",
+        "fiber": "1.29",
+        "loai": "Món sợi, nước"
+    },
+    {
+        "ten": "Hủ tíu mì",
+        "don_vi_tinh": "1 tô",
+        "calo": "410",
+        "protein": "16.7",
+        "lipit": "12.9",
+        "carbohydrat": "56.9",
+        "fiber": "1.36",
+        "loai": "Món sợi, nước"
+    },
+    {
+        "ten": "Hủ tíu Nam vang",
+        "don_vi_tinh": "1 tô",
+        "calo": "400",
+        "protein": "24.3",
+        "lipit": "14.8",
+        "carbohydrat": "42.5",
+        "fiber": "1.31",
+        "loai": "Món sợi, nước"
+    },
+    {
+        "ten": "Hủ tíu thịt heo",
+        "don_vi_tinh": "1 tô",
+        "calo": "361",
+        "protein": "14.4",
+        "lipit": "12.5",
+        "carbohydrat": "47.8",
+        "fiber": "1.23",
+        "loai": "Món sợi, nước"
+    },
+    {
+        "ten": "Hủ tíu xào",
+        "don_vi_tinh": "1 đĩa",
+        "calo": "646",
+        "protein": "41.4",
+        "lipit": "25.5",
+        "carbohydrat": "62.8",
+        "fiber": "1.67",
+        "loai": "Món sợi, nước"
+    },
+    {
+        "ten": "Mì quảng",
+        "don_vi_tinh": "1 tô",
+        "calo": "541",
+        "protein": "22.4",
+        "lipit": "20.2",
+        "carbohydrat": "67.4",
+        "fiber": "2.73",
+        "loai": "Món sợi, nước"
+    },
+    {
+        "ten": "Mì thịt heo",
+        "don_vi_tinh": "1 tô",
+        "calo": "415",
+        "protein": "19",
+        "lipit": "8.2",
+        "carbohydrat": "66.4",
+        "fiber": "1.71",
+        "loai": "Món sợi, nước"
+    },
+    {
+        "ten": "Mì vịt tiềm",
+        "don_vi_tinh": "1 tô",
+        "calo": "776",
+        "protein": "32.9",
+        "lipit": "43",
+        "carbohydrat": "64.5",
+        "fiber": "1.57",
+        "loai": "Món sợi, nước"
+    },
+    {
+        "ten": "Mì xào dòn",
+        "don_vi_tinh": "1 đĩa",
+        "calo": "638",
+        "protein": "42.2",
+        "lipit": "29.3",
+        "carbohydrat": "51.6",
+        "fiber": "1.83",
+        "loai": "Món sợi, nước"
+    },
+    {
+        "ten": "Miến gà",
+        "don_vi_tinh": "1 tô",
+        "calo": "635",
+        "protein": "17.8",
+        "lipit": "18.1",
+        "carbohydrat": "100.2",
+        "fiber": "6.4",
+        "loai": "Món sợi, nước"
+    },
+    {
+        "ten": "Nui chiên",
+        "don_vi_tinh": "1 đĩa",
+        "calo": "523",
+        "protein": "18.2",
+        "lipit": "24.3",
+        "carbohydrat": "58",
+        "fiber": "0.6",
+        "loai": "Món sợi, nước"
+    },
+    {
+        "ten": "Nui thịt heo",
+        "don_vi_tinh": "1 đĩa",
+        "calo": "414",
+        "protein": "17.5",
+        "lipit": "9.3",
+        "carbohydrat": "61.4",
+        "fiber": "0.21",
+        "loai": "Món sợi, nước"
+    },
+    {
+        "ten": "Phở bò chín",
+        "don_vi_tinh": "1 tô",
+        "calo": "456",
+        "protein": "20.9",
+        "lipit": "12.2",
+        "carbohydrat": "59.3",
+        "fiber": "2.28",
+        "loai": "Món sợi, nước"
+    },
+    {
+        "ten": "Phở bò tái",
+        "don_vi_tinh": "1 tô",
+        "calo": "431",
+        "protein": "17.9",
+        "lipit": "11.7",
+        "carbohydrat": "59.3",
+        "fiber": "2.28",
+        "loai": "Món sợi, nước"
+    },
+    {
+        "ten": "Phở bò viên",
+        "don_vi_tinh": "1 tô",
+        "calo": "431",
+        "protein": "16.3",
+        "lipit": "14.1",
+        "carbohydrat": "59.6",
+        "fiber": "2.21",
+        "loai": "Món sợi, nước"
+    },
+    {
+        "ten": "Phở gà",
+        "don_vi_tinh": "1 tô",
+        "calo": "483",
+        "protein": "21.3",
+        "lipit": "17.9",
+        "carbohydrat": "59.3",
+        "fiber": "2.28",
+        "loai": "Món sợi, nước"
+    },
+    {
+        "ten": "Bánh bao nhân cadé",
+        "don_vi_tinh": "1 cái",
+        "calo": "209",
+        "protein": "5.2",
+        "lipit": "4.1",
+        "carbohydrat": "37.9",
+        "fiber": "0.59",
+        "loai": "Bánh"
+    },
+    {
+        "ten": "Bánh bao nhân thịt",
+        "don_vi_tinh": "1 cái",
+        "calo": "328",
+        "protein": "16.1",
+        "lipit": "7.9",
+        "carbohydrat": "48.1",
+        "fiber": "0.9",
+        "loai": "Bánh"
+    },
+    {
+        "ten": "Bánh bèo (một loại)",
+        "don_vi_tinh": "1 đĩa",
+        "calo": "358",
+        "protein": "13.3",
+        "lipit": "13.9",
+        "carbohydrat": "44.9",
+        "fiber": "0.84",
+        "loai": "Bánh"
+    },
+    {
+        "ten": "Bánh bèo thập cẩm",
+        "don_vi_tinh": "1 đĩa",
+        "calo": "608",
+        "protein": "15.6",
+        "lipit": "21.6",
+        "carbohydrat": "88",
+        "fiber": "0.89",
+        "loai": "Bánh"
+    },
+    {
+        "ten": "Bánh bía",
+        "don_vi_tinh": "1 cái",
+        "calo": "709",
+        "protein": "16.1",
+        "lipit": "29.8",
+        "carbohydrat": "91.3",
+        "fiber": "1.84",
+        "loai": "Bánh"
+    },
+    {
+        "ten": "Bánh bò",
+        "don_vi_tinh": "2 cái",
+        "calo": "100",
+        "protein": "1.1",
+        "lipit": "4.5",
+        "carbohydrat": "13.8",
+        "fiber": "0.55",
+        "loai": "Bánh"
+    },
+    {
+        "ten": "Bánh bông lan cuốn",
+        "don_vi_tinh": "1 khoanh",
+        "calo": "155",
+        "protein": "4.2",
+        "lipit": "2.2",
+        "carbohydrat": "28.9",
+        "fiber": "0.1",
+        "loai": "Bánh"
+    },
+    {
+        "ten": "Bánh bông lan chén",
+        "don_vi_tinh": "1 cái",
+        "calo": "217",
+        "protein": "4.3",
+        "lipit": "12.1",
+        "carbohydrat": "22",
+        "fiber": "0.11",
+        "loai": "Bánh"
+    },
+    {
+        "ten": "Bánh bông lan kem vuông",
+        "don_vi_tinh": "1 cái nhỏ",
+        "calo": "260",
+        "protein": "5.2",
+        "lipit": "9",
+        "carbohydrat": "38.9",
+        "fiber": "0.11",
+        "loai": "Bánh"
+    },
+    {
+        "ten": "Bánh bột lọc",
+        "don_vi_tinh": "1 đĩa",
+        "calo": "487",
+        "protein": "13.2",
+        "lipit": "20.2",
+        "carbohydrat": "62.7",
+        "fiber": "0.73",
+        "loai": "Bánh"
+    },
+    {
+        "ten": "Bánh cay",
+        "don_vi_tinh": "1 cái nhỏ",
+        "calo": "25",
+        "protein": "0.2",
+        "lipit": "1",
+        "carbohydrat": "3.6",
+        "fiber": "0.13",
+        "loai": "Bánh"
+    },
+    {
+        "ten": "Bánh cuốn",
+        "don_vi_tinh": "1 đĩa",
+        "calo": "590",
+        "protein": "25.7",
+        "lipit": "25.6",
+        "carbohydrat": "64.3",
+        "fiber": "1.53",
+        "loai": "Bánh"
+    },
+    {
+        "ten": "Bánh chocopie",
+        "don_vi_tinh": "1 cái",
+        "calo": "120",
+        "protein": "1",
+        "lipit": "5",
+        "carbohydrat": "18",
+        "fiber": "0.08",
+        "loai": "Bánh"
+    },
+    {
+        "ten": "Bánh chuối",
+        "don_vi_tinh": "1 miếng",
+        "calo": "560",
+        "protein": "4.3",
+        "lipit": "13.9",
+        "carbohydrat": "90.9",
+        "fiber": "1.77",
+        "loai": "Bánh"
+    },
+    {
+        "ten": "Bánh chuối chiên",
+        "don_vi_tinh": "1 cái lớn",
+        "calo": "139",
+        "protein": "1",
+        "lipit": "9.9",
+        "carbohydrat": "11.5",
+        "fiber": "0.23",
+        "loai": "Bánh"
+    },
+    {
+        "ten": "Bánh chưng",
+        "don_vi_tinh": "1 cái",
+        "calo": "407",
+        "protein": "14.9",
+        "lipit": "5.5",
+        "carbohydrat": "74.7",
+        "fiber": "1.98",
+        "loai": "Bánh"
+    },
+    {
+        "ten": "Bánh da lợn",
+        "don_vi_tinh": "1 miếng",
+        "calo": "364",
+        "protein": "3.6",
+        "lipit": "11.9",
+        "carbohydrat": "60.6",
+        "fiber": "1.63",
+        "loai": "Bánh"
+    },
+    {
+        "ten": "Bánh đậu xanh nướng",
+        "don_vi_tinh": "1 miếng",
+        "calo": "405",
+        "protein": "13.6",
+        "lipit": "11.2",
+        "carbohydrat": "62.4",
+        "fiber": "3.03",
+        "loai": "Bánh"
+    },
+    {
+        "ten": "Bánh đậu xanh nướng",
+        "don_vi_tinh": "1 cái nhỏ",
+        "calo": "21",
+        "protein": "0.8",
+        "lipit": "0.6",
+        "carbohydrat": "3.12",
+        "fiber": "0.06",
+        "loai": "Bánh"
+    },
+    {
+        "ten": "Bánh Flan",
+        "don_vi_tinh": "1 cái tròn",
+        "calo": "66",
+        "protein": "1.7",
+        "lipit": "1.6",
+        "carbohydrat": "11.3",
+        "fiber": "0",
+        "loai": "Bánh"
+    },
+    {
+        "ten": "Bánh giò",
+        "don_vi_tinh": "1 cái",
+        "calo": "216",
+        "protein": "9.3",
+        "lipit": "7.1",
+        "carbohydrat": "28.5",
+        "fiber": "0.4",
+        "loai": "Bánh"
+    },
+    {
+        "ten": "Bánh ít nhân dừa",
+        "don_vi_tinh": "1 cái",
+        "calo": "261",
+        "protein": "3.5",
+        "lipit": "5.1",
+        "carbohydrat": "50.3",
+        "fiber": "0.62",
+        "loai": "Bánh"
+    },
+    {
+        "ten": "Bánh ít nhân đậu",
+        "don_vi_tinh": "1 cái",
+        "calo": "257",
+        "protein": "6.6",
+        "lipit": "1.9",
+        "carbohydrat": "53.4",
+        "fiber": "0.78",
+        "loai": "Bánh"
+    },
+    {
+        "ten": "Bánh khoai mì nướng",
+        "don_vi_tinh": "1 miếng",
+        "calo": "392",
+        "protein": "2.8",
+        "lipit": "14.5",
+        "carbohydrat": "62.5",
+        "fiber": "2.26",
+        "loai": "Bánh"
+    },
+    {
+        "ten": "Bánh khọt",
+        "don_vi_tinh": "1 đĩa 5 cái",
+        "calo": "154",
+        "protein": "5.8",
+        "lipit": "7.08",
+        "carbohydrat": "16.8",
+        "fiber": "2.9",
+        "loai": "Bánh"
+    },
+    {
+        "ten": "Bánh lá chả tôm",
+        "don_vi_tinh": "1 đĩa",
+        "calo": "331",
+        "protein": "17.1",
+        "lipit": "5.2",
+        "carbohydrat": "54.1",
+        "fiber": "2.81",
+        "loai": "Bánh"
+    },
+    {
+        "ten": "Bánh lá dứa nhân chuối",
+        "don_vi_tinh": "1 cái",
+        "calo": "154",
+        "protein": "4.8",
+        "lipit": "3.7",
+        "carbohydrat": "25.4",
+        "fiber": "0.87",
+        "loai": "Bánh"
+    },
+    {
+        "ten": "Bánh lá dừa nhân đậu",
+        "don_vi_tinh": "1 cái",
+        "calo": "155",
+        "protein": "5.4",
+        "lipit": "4.6",
+        "carbohydrat": "23.3",
+        "fiber": "0.94",
+        "loai": "Bánh"
+    },
+    {
+        "ten": "Bánh mè",
+        "don_vi_tinh": "1 cái nhỏ",
+        "calo": "170",
+        "protein": "3.1",
+        "lipit": "11.7",
+        "carbohydrat": "13.1",
+        "fiber": "0.14",
+        "loai": "Bánh"
+    },
+    {
+        "ten": "Bánh men",
+        "don_vi_tinh": "1 cái nhỏ",
+        "calo": "4",
+        "protein": "0.1",
+        "lipit": "0",
+        "carbohydrat": "0.7",
+        "fiber": "0",
+        "loai": "Bánh"
+    },
+    {
+        "ten": "Bánh mì cadé Kinh đô",
+        "don_vi_tinh": "1 cái",
+        "calo": "129",
+        "protein": "3",
+        "lipit": "2",
+        "carbohydrat": "20.4",
+        "fiber": "0",
+        "loai": "Bánh mì"
+    },
+    {
+        "ten": "Bánh mì kẹp cá hộp",
+        "don_vi_tinh": "1 ổ",
+        "calo": "399",
+        "protein": "15.1",
+        "lipit": "13.7",
+        "carbohydrat": "53.8",
+        "fiber": "0.59",
+        "loai": "Bánh mì"
+    },
+    {
+        "ten": "Bánh mì kẹp chà bông",
+        "don_vi_tinh": "1 ổ",
+        "calo": "337",
+        "protein": "18.4",
+        "lipit": "4.8",
+        "carbohydrat": "53.7",
+        "fiber": "1.01",
+        "loai": "Bánh mì"
+    },
+    {
+        "ten": "Bánh mì kẹp chả lụa",
+        "don_vi_tinh": "1 ổ",
+        "calo": "431",
+        "protein": "20.1",
+        "lipit": "14.2",
+        "carbohydrat": "55.6",
+        "fiber": "1.01",
+        "loai": "Bánh mì"
+    },
+    {
+        "ten": "Bánh mì ngọt Đức phát",
+        "don_vi_tinh": "1 ổ",
+        "calo": "304",
+        "protein": "9.5",
+        "lipit": "4.9",
+        "carbohydrat": "55.3",
+        "fiber": "0.23",
+        "loai": "Bánh mì"
+    },
+    {
+        "ten": "Bánh mì ổ",
+        "don_vi_tinh": "1 ổ trung bình",
+        "calo": "239",
+        "protein": "7.6",
+        "lipit": "0.8",
+        "carbohydrat": "50.5",
+        "fiber": "0.19",
+        "loai": "Bánh mì"
+    },
+    {
+        "ten": "Bánh mì sandwich",
+        "don_vi_tinh": "1 lát vuông",
+        "calo": "89",
+        "protein": "2.6",
+        "lipit": "1.2",
+        "carbohydrat": "16.8",
+        "fiber": "0.08",
+        "loai": "Bánh mì"
+    },
+    {
+        "ten": "Bánh mì sandwich kẹp thịt",
+        "don_vi_tinh": "1 cái",
+        "calo": "468",
+        "protein": "18.9",
+        "lipit": "26.2",
+        "carbohydrat": "38.9",
+        "fiber": "0.88",
+        "loai": "Bánh mì"
+    },
+    {
+        "ten": "Bánh mì thịt",
+        "don_vi_tinh": "1 ổ",
+        "calo": "461",
+        "protein": "17.8",
+        "lipit": "18.7",
+        "carbohydrat": "55.3",
+        "fiber": "1.01",
+        "loai": "Bánh mì"
+    },
+    {
+        "ten": "Bánh patechaud",
+        "don_vi_tinh": "1 cái",
+        "calo": "374",
+        "protein": "10.5",
+        "lipit": "20.2",
+        "carbohydrat": "37.3",
+        "fiber": "0.15",
+        "loai": "Bánh"
+    },
+    {
+        "ten": "Bánh phồng tôm",
+        "don_vi_tinh": "1 đĩa 5 cái",
+        "calo": "169",
+        "protein": "0.4",
+        "lipit": "14.8",
+        "carbohydrat": "8.5",
+        "fiber": "0",
+        "loai": "Món phụ"
+    },
+    {
+        "ten": "Bánh su kem",
+        "don_vi_tinh": "1 cái",
+        "calo": "112",
+        "protein": "2.4",
+        "lipit": "7.2",
+        "carbohydrat": "9.5",
+        "fiber": "0.02",
+        "loai": "Bánh"
+    },
+    {
+        "ten": "Bánh sừng trâu",
+        "don_vi_tinh": "1 cái",
+        "calo": "227",
+        "protein": "4.6",
+        "lipit": "7.3",
+        "carbohydrat": "35.7",
+        "fiber": "0.18",
+        "loai": "Bánh"
+    },
+    {
+        "ten": "Bánh tét nhân chuối",
+        "don_vi_tinh": "1 cái",
+        "calo": "302",
+        "protein": "6.2",
+        "lipit": "1.2",
+        "carbohydrat": "67.2",
+        "fiber": "0.38",
+        "loai": "Bánh"
+    },
+    {
+        "ten": "Bánh tét nhân đậu ngọt",
+        "don_vi_tinh": "1 cái",
+        "calo": "444",
+        "protein": "13.7",
+        "lipit": "1.8",
+        "carbohydrat": "93.6",
+        "fiber": "1.98",
+        "loai": "Bánh"
+    },
+    {
+        "ten": "Bánh tét nhân mặn",
+        "don_vi_tinh": "1 cái",
+        "calo": "407",
+        "protein": "14.9",
+        "lipit": "5.5",
+        "carbohydrat": "74.7",
+        "fiber": "1.98",
+        "loai": "Bánh"
+    },
+    {
+        "ten": "Bánh tiêu",
+        "don_vi_tinh": "1 cái lớn",
+        "calo": "132",
+        "protein": "1.9",
+        "lipit": "7.8",
+        "carbohydrat": "13.5",
+        "fiber": "0.1",
+        "loai": "Bánh"
+    },
+    {
+        "ten": "Bánh ướt",
+        "don_vi_tinh": "1 đĩa",
+        "calo": "749",
+        "protein": "22.9",
+        "lipit": "19.3",
+        "carbohydrat": "120.9",
+        "fiber": "2.18",
+        "loai": "Bánh"
+    },
+    {
+        "ten": "Bánh xèo",
+        "don_vi_tinh": "1 cái",
+        "calo": "517",
+        "protein": "15",
+        "lipit": "19.3",
+        "carbohydrat": "70.9",
+        "fiber": "4.31",
+        "loai": "Bánh"
+    },
+    {
+        "ten": "Giò cháo quẩy",
+        "don_vi_tinh": "1 cái đôi",
+        "calo": "117",
+        "protein": "3.2",
+        "lipit": "4.3",
+        "carbohydrat": "16.3",
+        "fiber": "0.28",
+        "loai": "Khác"
+    },
+    {
+        "ten": "Há cảo",
+        "don_vi_tinh": "1 đĩa",
+        "calo": "363",
+        "protein": "7.4",
+        "lipit": "12.2",
+        "carbohydrat": "56",
+        "fiber": "0.75",
+        "loai": "Khác"
+    },
+    {
+        "ten": "Kẹo chocolate nhân đậu phộng",
+        "don_vi_tinh": "1 gói nhỏ",
+        "calo": "102",
+        "protein": "2.5",
+        "lipit": "6.7",
+        "carbohydrat": "7.7",
+        "fiber": "0",
+        "loai": "Kẹo"
+    },
+    {
+        "ten": "Kẹo dẻo",
+        "don_vi_tinh": "1 cái nhỏ",
+        "calo": "9",
+        "protein": "0.2",
+        "lipit": "0",
+        "carbohydrat": "2",
+        "fiber": "0",
+        "loai": "Kẹo"
+    },
+    {
+        "ten": "Kẹo dừa",
+        "don_vi_tinh": "1 viên nhỏ",
+        "calo": "31",
+        "protein": "0.1",
+        "lipit": "0.9",
+        "carbohydrat": "5.7",
+        "fiber": "0.19",
+        "loai": "Kẹo"
+    },
+    {
+        "ten": "Kẹo sữa",
+        "don_vi_tinh": "1 viên nhỏ",
+        "calo": "13",
+        "protein": "0.1",
+        "lipit": "0.2",
+        "carbohydrat": "2.8",
+        "fiber": "0",
+        "loai": "Kẹo"
+    },
+    {
+        "ten": "Kẹo trái cây",
+        "don_vi_tinh": "1 viên nhỏ",
+        "calo": "13",
+        "protein": "0",
+        "lipit": "0",
+        "carbohydrat": "3.1",
+        "fiber": "0",
+        "loai": "Kẹo"
+    },
+    {
+        "ten": "Bắp giã",
+        "don_vi_tinh": "1 gói",
+        "calo": "328",
+        "protein": "6.3",
+        "lipit": "11",
+        "carbohydrat": "51.1",
+        "fiber": "1.72",
+        "loai": "Kẹo"
+    },
+    {
+        "ten": "Chè bắp",
+        "don_vi_tinh": "1 chén",
+        "calo": "352",
+        "protein": "4.7",
+        "lipit": "10.1",
+        "carbohydrat": "60.5",
+        "fiber": "1.62",
+        "loai": "Chè"
+    },
+    {
+        "ten": "Chè chuối chưng",
+        "don_vi_tinh": "1 chén",
+        "calo": "332",
+        "protein": "3.5",
+        "lipit": "10.7",
+        "carbohydrat": "55.7",
+        "fiber": "1.72",
+        "loai": "Chè"
+    },
+    {
+        "ten": "Chè đậu đen",
+        "don_vi_tinh": "1 ly",
+        "calo": "419",
+        "protein": "13",
+        "lipit": "9.8",
+        "carbohydrat": "69.8",
+        "fiber": "2.93",
+        "loai": "Chè"
+    },
+    {
+        "ten": "Chè đậu trắng",
+        "don_vi_tinh": "1 ly",
+        "calo": "413",
+        "protein": "12",
+        "lipit": "9.9",
+        "carbohydrat": "68.8",
+        "fiber": "2.66",
+        "loai": "Chè"
+    },
+    {
+        "ten": "Chè đậu xanh đánh",
+        "don_vi_tinh": "1 chén",
+        "calo": "359",
+        "protein": "13.2",
+        "lipit": "10.2",
+        "carbohydrat": "53.4",
+        "fiber": "3.41",
+        "loai": "Chè"
+    },
+    {
+        "ten": "Chè đậu xanh phổ tai",
+        "don_vi_tinh": "1 ly",
+        "calo": "423",
+        "protein": "12.9",
+        "lipit": "10.1",
+        "carbohydrat": "70.1",
+        "fiber": "4.55",
+        "loai": "Chè"
+    },
+    {
+        "ten": "Chè nếp đậu trắng",
+        "don_vi_tinh": "1 chén",
+        "calo": "436",
+        "protein": "11.5",
+        "lipit": "10",
+        "carbohydrat": "74.9",
+        "fiber": "2.44",
+        "loai": "Chè"
+    },
+    {
+        "ten": "Chè nếp khoai môn",
+        "don_vi_tinh": "1 chén",
+        "calo": "385",
+        "protein": "",
+        "lipit": "4.7",
+        "carbohydrat": "11",
+        "fiber": "66.8",
+        "loai": "Chè"
+    },
+    {
+        "ten": "Chè táo xọn",
+        "don_vi_tinh": "1 chén",
+        "calo": "311",
+        "protein": "",
+        "lipit": "7.4",
+        "carbohydrat": "9.6",
+        "fiber": "48.6",
+        "loai": "Chè"
+    },
+    {
+        "ten": "Chè thạch nhãn",
+        "don_vi_tinh": "1 ly",
+        "calo": "199",
+        "protein": "",
+        "lipit": "2.2",
+        "carbohydrat": "0.1",
+        "fiber": "47.2",
+        "loai": "Chè"
+    },
+    {
+        "ten": "Chè thưng",
+        "don_vi_tinh": "1 chén",
+        "calo": "329",
+        "protein": "",
+        "lipit": "7.1",
+        "carbohydrat": "11.9",
+        "fiber": "48.4",
+        "loai": "Chè"
+    },
+    {
+        "ten": "Chè trôi nước",
+        "don_vi_tinh": "1 chén",
+        "calo": "513",
+        "protein": "",
+        "lipit": "11.7",
+        "carbohydrat": "12",
+        "fiber": "89.6",
+        "loai": "Chè"
+    },
+    {
+        "ten": "Sâm bổ lượng",
+        "don_vi_tinh": "1 ly",
+        "calo": "268",
+        "protein": "",
+        "lipit": "6.4",
+        "carbohydrat": "0.5",
+        "fiber": "59.5",
+        "loai": "Sâm"
+    },
+    {
+        "ten": "Xôi bắp",
+        "don_vi_tinh": "1 gói",
+        "calo": "313",
+        "protein": "",
+        "lipit": "8.2",
+        "carbohydrat": "8.3",
+        "fiber": "51.3",
+        "loai": "Xôi"
+    },
+    {
+        "ten": "Xôi đậu đen",
+        "don_vi_tinh": "1 gói",
+        "calo": "550",
+        "protein": "",
+        "lipit": "17.4",
+        "carbohydrat": "11.1",
+        "fiber": "95.6",
+        "loai": "Xôi"
+    },
+    {
+        "ten": "Xôi đậu phộng",
+        "don_vi_tinh": "1 gói",
+        "calo": "659",
+        "protein": "",
+        "lipit": "19.9",
+        "carbohydrat": "28.3",
+        "fiber": "81.4",
+        "loai": "Xôi"
+    },
+    {
+        "ten": "Xôi đậu xanh",
+        "don_vi_tinh": "1 gói",
+        "calo": "532",
+        "protein": "",
+        "lipit": "15.4",
+        "carbohydrat": "11.2",
+        "fiber": "92.8",
+        "loai": "Xôi"
+    },
+    {
+        "ten": "Xôi gấc",
+        "don_vi_tinh": "1 gói",
+        "calo": "589",
+        "protein": "",
+        "lipit": "12.1",
+        "carbohydrat": "13.8",
+        "fiber": "102.4",
+        "loai": "Xôi"
+    },
+    {
+        "ten": "Xôi khúc (cúc)",
+        "don_vi_tinh": "1 gói",
+        "calo": "395",
+        "protein": "",
+        "lipit": "10.4",
+        "carbohydrat": "10.5",
+        "fiber": "65",
+        "loai": "Xôi"
+    },
+    {
+        "ten": "Xôi lá cẩm",
+        "don_vi_tinh": "1 gói",
+        "calo": "577",
+        "protein": "",
+        "lipit": "15",
+        "carbohydrat": "11.3",
+        "fiber": "104.3",
+        "loai": "Xôi"
+    },
+    {
+        "ten": "Xôi mặn",
+        "don_vi_tinh": "1 gói",
+        "calo": "499",
+        "protein": "",
+        "lipit": "17.9",
+        "carbohydrat": "18.9",
+        "fiber": "64.7",
+        "loai": "Xôi"
+    },
+    {
+        "ten": "Xôi nếp than",
+        "don_vi_tinh": "1 gói",
+        "calo": "515",
+        "protein": "",
+        "lipit": "13.5",
+        "carbohydrat": "11",
+        "fiber": "90.8",
+        "loai": "Xôi"
+    },
+    {
+        "ten": "Xôi vị",
+        "don_vi_tinh": "1 gói",
+        "calo": "459",
+        "protein": "",
+        "lipit": "11.6",
+        "carbohydrat": "13",
+        "fiber": "74.2",
+        "loai": "Xôi"
+    },
+    {
+        "ten": "Xôi vò",
+        "don_vi_tinh": "1 gói",
+        "calo": "509",
+        "protein": "",
+        "lipit": "14.8",
+        "carbohydrat": "6.9",
+        "fiber": "97.2",
+        "loai": "Xôi"
+    },
+    {
+        "ten": "Hột vịt lộn",
+        "don_vi_tinh": "1 trái",
+        "calo": "98",
+        "protein": "",
+        "lipit": "7.3",
+        "carbohydrat": "6.7",
+        "fiber": "2.2",
+        "loai": "Trứng"
+    },
+    {
+        "ten": "Hột vịt muối",
+        "don_vi_tinh": "1 trái",
+        "calo": "90",
+        "protein": "",
+        "lipit": "6.4",
+        "carbohydrat": "7",
+        "fiber": "0.5",
+        "loai": "Trứng"
+    },
+    {
+        "ten": "Trứng cút",
+        "don_vi_tinh": "1 trái",
+        "calo": "17",
+        "protein": "",
+        "lipit": "1.5",
+        "carbohydrat": "1.2",
+        "fiber": "0.1",
+        "loai": "Trứng"
+    },
+    {
+        "ten": "Trứng gà Mỹ",
+        "don_vi_tinh": "1 trái",
+        "calo": "81",
+        "protein": "",
+        "lipit": "7.3",
+        "carbohydrat": "5.7",
+        "fiber": "0.2",
+        "loai": "Trứng"
+    },
+    {
+        "ten": "Trứng gà ta",
+        "don_vi_tinh": "1 trái",
+        "calo": "58",
+        "protein": "",
+        "lipit": "5.2",
+        "carbohydrat": "4.1",
+        "fiber": "0.2",
+        "loai": "Trứng"
+    },
+    {
+        "ten": "Trứng vịt bắc thảo",
+        "don_vi_tinh": "1 trái",
+        "calo": "94",
+        "protein": "",
+        "lipit": "6",
+        "carbohydrat": "7.3",
+        "fiber": "0",
+        "loai": "Trứng"
+    },
+    {
+        "ten": "Trứng vịt luộc",
+        "don_vi_tinh": "1 trái",
+        "calo": "90",
+        "protein": "",
+        "lipit": "6.4",
+        "carbohydrat": "7",
+        "fiber": "0.5",
+        "loai": "Trứng"
+    },
+    {
+        "ten": "Bia",
+        "don_vi_tinh": "1 ly",
+        "calo": "141",
+        "protein": "",
+        "lipit": "1.6",
+        "carbohydrat": "0",
+        "fiber": "7.5",
+        "loai": "Nước"
+    },
+    {
+        "ten": "Cà phê đen phin",
+        "don_vi_tinh": "1 tách",
+        "calo": "40",
+        "protein": "",
+        "lipit": "0",
+        "carbohydrat": "0",
+        "fiber": "9.9",
+        "loai": "Nước"
+    },
+    {
+        "ten": "Cà phê sữa gói tan",
+        "don_vi_tinh": "1 tách",
+        "calo": "85",
+        "protein": "",
+        "lipit": "1",
+        "carbohydrat": "2.4",
+        "fiber": "14",
+        "loai": "Nước"
+    },
+    {
+        "ten": "Cocktail trái cây",
+        "don_vi_tinh": "1 ly",
+        "calo": "158",
+        "protein": "",
+        "lipit": "0.9",
+        "carbohydrat": "0.1",
+        "fiber": "38.6",
+        "loai": "Nước"
+    },
+    {
+        "ten": "Chôm chôm đóng hộp",
+        "don_vi_tinh": "1ly",
+        "calo": "138",
+        "protein": "",
+        "lipit": "0.9",
+        "carbohydrat": "0",
+        "fiber": "33.8",
+        "loai": "Hoa quả"
+    },
+    {
+        "ten": "Kem cây Kido/Wall",
+        "don_vi_tinh": "1 cây",
+        "calo": "86",
+        "protein": "",
+        "lipit": "1.3",
+        "carbohydrat": "3.7",
+        "fiber": "11.1",
+        "loai": "Kem"
+    },
+    {
+        "ten": "Kem Cornetto",
+        "don_vi_tinh": "1 cây",
+        "calo": "202",
+        "protein": "",
+        "lipit": "3.3",
+        "carbohydrat": "10.3",
+        "fiber": "24",
+        "loai": "Kem"
+    },
+    {
+        "ten": "Kem hộp",
+        "don_vi_tinh": "1 hộp 500ml",
+        "calo": "381",
+        "protein": "",
+        "lipit": "6",
+        "carbohydrat": "17",
+        "fiber": "50.8",
+        "loai": "Kem"
+    },
+    {
+        "ten": "Nước cam vắt",
+        "don_vi_tinh": "1 ly",
+        "calo": "226",
+        "protein": "",
+        "lipit": "0.9",
+        "carbohydrat": "0",
+        "fiber": "55.7",
+        "loai": "Nước"
+    },
+    {
+        "ten": "Nước chanh",
+        "don_vi_tinh": "1 ly",
+        "calo": "149",
+        "protein": "",
+        "lipit": "0.1",
+        "carbohydrat": "0",
+        "fiber": "37.2",
+        "loai": "Nước"
+    },
+    {
+        "ten": "Nước ép trái cây đóng hộp",
+        "don_vi_tinh": "1 ly",
+        "calo": "74",
+        "protein": "",
+        "lipit": "0",
+        "carbohydrat": "0",
+        "fiber": "18.4",
+        "loai": "Nước"
+    },
+    {
+        "ten": "Nước mía",
+        "don_vi_tinh": "1 ly",
+        "calo": "106",
+        "protein": "",
+        "lipit": "0",
+        "carbohydrat": "0",
+        "fiber": "26",
+        "loai": "Nước"
+    },
+    {
+        "ten": "Nước ngọt có gaz",
+        "don_vi_tinh": "1 lon",
+        "calo": "146",
+        "protein": "",
+        "lipit": "0",
+        "carbohydrat": "0",
+        "fiber": "36.2",
+        "loai": "Nước"
+    },
+    {
+        "ten": "Nước rau má",
+        "don_vi_tinh": "1 ly",
+        "calo": "174",
+        "protein": "",
+        "lipit": "4.4",
+        "carbohydrat": "0",
+        "fiber": "39.2",
+        "loai": "Nước"
+    },
+    {
+        "ten": "Nước sâm",
+        "don_vi_tinh": "1 ly",
+        "calo": "74",
+        "protein": "",
+        "lipit": "0",
+        "carbohydrat": "0",
+        "fiber": "19.9",
+        "loai": "Nước"
+    },
+    {
+        "ten": "Phô mai Bò cười",
+        "don_vi_tinh": "1 miếng nhỏ",
+        "calo": "67",
+        "protein": "",
+        "lipit": "4.6",
+        "carbohydrat": "5.4",
+        "fiber": "0",
+        "loai": "Khác"
+    },
+    {
+        "ten": "Sinh tố",
+        "don_vi_tinh": "1 ly",
+        "calo": "277",
+        "protein": "",
+        "lipit": "3.2",
+        "carbohydrat": "3.2",
+        "fiber": "58.8",
+        "loai": "Nước"
+    },
+    {
+        "ten": "Sữa chua uống Yo-Most",
+        "don_vi_tinh": "1 hộp nhỏ",
+        "calo": "134",
+        "protein": "",
+        "lipit": "2.8",
+        "carbohydrat": "1.9",
+        "fiber": "28",
+        "loai": "Sữa chua"
+    },
+    {
+        "ten": "Sữa chua Yoghurt Vinamilk",
+        "don_vi_tinh": "1 hủ nhỏ",
+        "calo": "137",
+        "protein": "",
+        "lipit": "3.8",
+        "carbohydrat": "4",
+        "fiber": "21.6",
+        "loai": "Sữa chua"
+    },
+    {
+        "ten": "Sữa đặc có đường",
+        "don_vi_tinh": "1 hộp nhỏ",
+        "calo": "88",
+        "protein": "",
+        "lipit": "2",
+        "carbohydrat": "2.4",
+        "fiber": "14.7",
+        "loai": "Sữa"
+    },
+    {
+        "ten": "Sữa đậu nành Tribeco",
+        "don_vi_tinh": "1 hộp nhỏ",
+        "calo": "136",
+        "protein": "",
+        "lipit": "6",
+        "carbohydrat": "2.9",
+        "fiber": "15",
+        "loai": "Sữa"
+    },
+    {
+        "ten": "Sữa hộp Cô gái Hà lan",
+        "don_vi_tinh": "1 hộp nhỏ",
+        "calo": "152",
+        "protein": "",
+        "lipit": "6.5",
+        "carbohydrat": "6",
+        "fiber": "18.1",
+        "loai": "Sữa"
+    },
+    {
+        "ten": "Thạch dừa",
+        "don_vi_tinh": "1 cái",
+        "calo": "14",
+        "protein": "",
+        "lipit": "0.4",
+        "carbohydrat": "0",
+        "fiber": "3.9",
+        "loai": "Đồ ăn vặt"
+    },
+    {
+        "ten": "Trái dừa tươi",
+        "don_vi_tinh": "1 trái",
+        "calo": "128",
+        "protein": "",
+        "lipit": "5.2",
+        "carbohydrat": "1.7",
+        "fiber": "22.8",
+        "loai": "Hoa quả"
+    },
+    {
+        "ten": "Vải đóng hộp",
+        "don_vi_tinh": "1 ly",
+        "calo": "129",
+        "protein": "",
+        "lipit": "0.9",
+        "carbohydrat": "0",
+        "fiber": "31.6",
+        "loai": "Hoa quả"
+    },
+    {
+        "ten": "Bơ",
+        "don_vi_tinh": "1 trái",
+        "calo": "184",
+        "protein": "",
+        "lipit": "3.5",
+        "carbohydrat": "17.1",
+        "fiber": "4.2",
+        "loai": "Khác"
+    },
+    {
+        "ten": "Chuối cau",
+        "don_vi_tinh": "1 trái",
+        "calo": "25",
+        "protein": "",
+        "lipit": "0.5",
+        "carbohydrat": "0.2",
+        "fiber": "8.1",
+        "loai": "Hoa quả"
+    },
+    {
+        "ten": "Chuối sứ",
+        "don_vi_tinh": "1 trái",
+        "calo": "54",
+        "protein": "",
+        "lipit": "0.5",
+        "carbohydrat": "0.2",
+        "fiber": "7.8",
+        "loai": "Hoa quả"
+    },
+    {
+        "ten": "Thơm",
+        "don_vi_tinh": "1 miếng",
+        "calo": "17",
+        "protein": "",
+        "lipit": "0.5",
+        "carbohydrat": "0",
+        "fiber": "3.9",
+        "loai": "Hoa quả"
+    },
+    {
+        "ten": "Xoài",
+        "don_vi_tinh": "1 trái",
+        "calo": "179",
+        "protein": "",
+        "lipit": "1.6",
+        "carbohydrat": "0.8",
+        "fiber": "41.2",
+        "loai": "Hoa quả"
+    },
+    {
+        "ten": "Nhãn tiêu",
+        "don_vi_tinh": "1 trái",
+        "calo": "2",
+        "protein": "",
+        "lipit": "0.4",
+        "carbohydrat": "0",
+        "fiber": "0.4",
+        "loai": "Hoa quả"
+    },
+    {
+        "ten": "Nhãn thường",
+        "don_vi_tinh": "1 trái",
+        "calo": "4",
+        "protein": "",
+        "lipit": "0.1",
+        "carbohydrat": "0",
+        "fiber": "0.9",
+        "loai": "Hoa quả"
+    },
+    {
+        "ten": "Táo ta",
+        "don_vi_tinh": "1 trái",
+        "calo": "9",
+        "protein": "",
+        "lipit": "0.2",
+        "carbohydrat": "0",
+        "fiber": "2.1",
+        "loai": "Hoa quả"
+    },
+    {
+        "ten": "Mít tố nữ",
+        "don_vi_tinh": "1 múi",
+        "calo": "10",
+        "protein": "",
+        "lipit": "0.2",
+        "carbohydrat": "0",
+        "fiber": "2.2",
+        "loai": "Hoa quả"
+    },
+    {
+        "ten": "Mít nghệ",
+        "don_vi_tinh": "1 múi",
+        "calo": "11",
+        "protein": "",
+        "lipit": "0.3",
+        "carbohydrat": "0",
+        "fiber": "2.5",
+        "loai": "Hoa quả"
+    },
+    {
+        "ten": "Vải đóng hộp",
+        "don_vi_tinh": "1 trái",
+        "calo": "9",
+        "protein": "",
+        "lipit": "0.1",
+        "carbohydrat": "0",
+        "fiber": "2.1",
+        "loai": "Hoa quả"
+    },
+    {
+        "ten": "Chôm chôm",
+        "don_vi_tinh": "1 trái",
+        "calo": "14",
+        "protein": "",
+        "lipit": "0.3",
+        "carbohydrat": "0",
+        "fiber": "3.3",
+        "loai": "Hoa quả"
+    },
+    {
+        "ten": "Măng cụt",
+        "don_vi_tinh": "1 trái",
+        "calo": "13",
+        "protein": "",
+        "lipit": "0.1",
+        "carbohydrat": "0",
+        "fiber": "3.5",
+        "loai": "Hoa quả"
+    },
+    {
+        "ten": "Sầu riêng",
+        "don_vi_tinh": "1 trái",
+        "calo": "28",
+        "protein": "",
+        "lipit": "0.5",
+        "carbohydrat": "0.3",
+        "fiber": "5.7",
+        "loai": "Hoa quả"
+    },
+    {
+        "ten": "Chuối khô",
+        "don_vi_tinh": "1 trái",
+        "calo": "42",
+        "protein": "",
+        "lipit": "0.7",
+        "carbohydrat": "0",
+        "fiber": "9.9",
+        "loai": "Hoa quả"
+    },
+    {
+        "ten": "Hạt điều",
+        "don_vi_tinh": "1 đĩa",
+        "calo": "291",
+        "protein": "",
+        "lipit": "9.2",
+        "carbohydrat": "24.7",
+        "fiber": "8.2",
+        "loai": "Hoa quả"
+    },
+    {
+        "ten": "Quýt",
+        "don_vi_tinh": "1 trái",
+        "calo": "28",
+        "protein": "",
+        "lipit": "0.6",
+        "carbohydrat": "0",
+        "fiber": "6.4",
+        "loai": "Hoa quả"
+    },
+    {
+        "ten": "Nho khô",
+        "don_vi_tinh": "1 đĩa nhỏ",
+        "calo": "158",
+        "protein": "",
+        "lipit": "1.4",
+        "carbohydrat": "0.1",
+        "fiber": "41.7",
+        "loai": "Hoa quả"
+    },
+    {
+        "ten": "Cóc",
+        "don_vi_tinh": "1 trái",
+        "calo": "34",
+        "protein": "",
+        "lipit": "1",
+        "carbohydrat": "0",
+        "fiber": "7.4",
+        "loai": "Hoa quả"
+    },
+    {
+        "ten": "Nho Mỹ (đỏ/xanh)",
+        "don_vi_tinh": "100 gram",
+        "calo": "68",
+        "protein": "",
+        "lipit": "0.4",
+        "carbohydrat": "0",
+        "fiber": "16.5",
+        "loai": "Hoa quả"
+    },
+    {
+        "ten": "Khoai môn",
+        "don_vi_tinh": "1 củ",
+        "calo": "57",
+        "protein": "",
+        "lipit": "0.9",
+        "carbohydrat": "0.1",
+        "fiber": "113.3",
+        "loai": "Hoa quả"
+    },
+    {
+        "ten": "Chuối già",
+        "don_vi_tinh": "1 trái",
+        "calo": "74",
+        "protein": "",
+        "lipit": "1.1",
+        "carbohydrat": "0.2",
+        "fiber": "16.9",
+        "loai": "Hoa quả"
+    },
+    {
+        "ten": "Dưa hấu",
+        "don_vi_tinh": "1 miếng",
+        "calo": "21",
+        "protein": "",
+        "lipit": "1.6",
+        "carbohydrat": "0.3",
+        "fiber": "3",
+        "loai": "Hoa quả"
+    },
+    {
+        "ten": "Mãng cầu ta",
+        "don_vi_tinh": "1 trái",
+        "calo": "56",
+        "protein": "",
+        "lipit": "1.4",
+        "carbohydrat": "0",
+        "fiber": "12.6",
+        "loai": "Hoa quả"
+    },
+    {
+        "ten": "Bưởi",
+        "don_vi_tinh": "1 múi",
+        "calo": "8",
+        "protein": "",
+        "lipit": "0.1",
+        "carbohydrat": "0",
+        "fiber": "5.1",
+        "loai": "Hoa quả"
+    },
+    {
+        "ten": "Khoai lang",
+        "don_vi_tinh": "1 củ",
+        "calo": "131",
+        "protein": "",
+        "lipit": "1.4",
+        "carbohydrat": "0.3",
+        "fiber": "30.6",
+        "loai": "Rau, củ"
+    },
+    {
+        "ten": "Bắp xào",
+        "don_vi_tinh": "1 đĩa",
+        "calo": "317",
+        "protein": "",
+        "lipit": "10.4",
+        "carbohydrat": "12.3",
+        "fiber": "41",
+        "loai": "Rau, củ"
+    },
+    {
+        "ten": "Lê",
+        "don_vi_tinh": "1 trái",
+        "calo": "91",
+        "protein": "",
+        "lipit": "1.4",
+        "carbohydrat": "0.4",
+        "fiber": "20.6",
+        "loai": "Hoa quả"
+    },
+    {
+        "ten": "Khoai từ",
+        "don_vi_tinh": "1 củ",
+        "calo": "98",
+        "protein": "",
+        "lipit": "1.6",
+        "carbohydrat": "0",
+        "fiber": "23",
+        "loai": "Rau, củ"
+    },
+    {
+        "ten": "Khoai mì",
+        "don_vi_tinh": "1 khúc",
+        "calo": "137",
+        "protein": "",
+        "lipit": "1",
+        "carbohydrat": "0.2",
+        "fiber": "32.8",
+        "loai": "Rau, củ"
+    },
+    {
+        "ten": "Táo tây",
+        "don_vi_tinh": "1 trái",
+        "calo": "107",
+        "protein": "",
+        "lipit": "1.1",
+        "carbohydrat": "0",
+        "fiber": "25.8",
+        "loai": "Hoa quả"
+    },
+    {
+        "ten": "Bắp luộc",
+        "don_vi_tinh": "1 trái",
+        "calo": "192",
+        "protein": "",
+        "lipit": "4.5",
+        "carbohydrat": "2.5",
+        "fiber": "37.8",
+        "loai": "Rau, củ"
+    },
+    {
+        "ten": "Bắp nướng",
+        "don_vi_tinh": "1 trái",
+        "calo": "272",
+        "protein": "",
+        "lipit": "4.8",
+        "carbohydrat": "7.6",
+        "fiber": "46",
+        "loai": "Rau, củ"
+    },
+    {
+        "ten": "Mãng cầu xiêm",
+        "don_vi_tinh": "1 miếng",
+        "calo": "40",
+        "protein": "",
+        "lipit": "1.4",
+        "carbohydrat": "0",
+        "fiber": "8.6",
+        "loai": "Hoa quả"
+    },
+    {
+        "ten": "Khế",
+        "don_vi_tinh": "1 trái",
+        "calo": "9",
+        "protein": "",
+        "lipit": "0.4",
+        "carbohydrat": "0",
+        "fiber": "1.9",
+        "loai": "Hoa quả"
+    },
+    {
+        "ten": "Khoai tây",
+        "don_vi_tinh": "1 đĩa nhỏ",
+        "calo": "131",
+        "protein": "",
+        "lipit": "0.6",
+        "carbohydrat": "8.9",
+        "fiber": "12.3",
+        "loai": "Rau, củ"
+    },
+    {
+        "ten": "Khoai lang chiên",
+        "don_vi_tinh": "100 gram",
+        "calo": "325",
+        "protein": "",
+        "lipit": "2.6",
+        "carbohydrat": "15.8",
+        "fiber": "43.1",
+        "loai": "Rau, củ"
+    },
+    {
+        "ten": "Đậu phộng nấu",
+        "don_vi_tinh": "1 lon",
+        "calo": "395",
+        "protein": "",
+        "lipit": "19",
+        "carbohydrat": "30.7",
+        "fiber": "10.7",
+        "loai": "Rau, củ"
+    },
+    {
+        "ten": "Đậu phộng da cá",
+        "don_vi_tinh": "1 đĩa nhỏ",
+        "calo": "270",
+        "protein": "",
+        "lipit": "8.9",
+        "carbohydrat": "16.1",
+        "fiber": "23.2",
+        "loai": "Rau, củ"
+    },
+    {
+        "ten": "Đu đủ",
+        "don_vi_tinh": "1 miếng",
+        "calo": "125",
+        "protein": "",
+        "lipit": "3.6",
+        "carbohydrat": "0",
+        "fiber": "27.7",
+        "loai": "Hoa quả"
+    },
+    {
+        "ten": "Hồng đỏ",
+        "don_vi_tinh": "1 trái",
+        "calo": "25",
+        "protein": "",
+        "lipit": "0.6",
+        "carbohydrat": "0",
+        "fiber": "5.6",
+        "loai": "Hoa quả"
+    },
+    {
+        "ten": "Nho ta (tím)",
+        "don_vi_tinh": "100 gram",
+        "calo": "14",
+        "protein": "",
+        "lipit": "0.4",
+        "carbohydrat": "0",
+        "fiber": "3.1",
+        "loai": "Hoa quả"
+    },
+    {
+        "ten": "Sơ ri",
+        "don_vi_tinh": "100 gram",
+        "calo": "14",
+        "protein": "",
+        "lipit": "0.4",
+        "carbohydrat": "0",
+        "fiber": "3.1",
+        "loai": "Hoa quả"
+    },
+    {
+        "ten": "Đậu phộng rang",
+        "don_vi_tinh": "1 đĩa nhỏ",
+        "calo": "573",
+        "protein": "",
+        "lipit": "27.5",
+        "carbohydrat": "44.5",
+        "fiber": "15.5",
+        "loai": "Rau, củ"
+    },
+    {
+        "ten": "Đậu phộng chiên muối",
+        "don_vi_tinh": "1 đĩa nhỏ",
+        "calo": "618",
+        "protein": "",
+        "lipit": "27.5",
+        "carbohydrat": "49.5",
+        "fiber": "15.5",
+        "loai": "Rau, củ"
+    },
+    {
+        "ten": "Cam",
+        "don_vi_tinh": "1 trái",
+        "calo": "68",
+        "protein": "",
+        "lipit": "1.7",
+        "carbohydrat": "0",
+        "fiber": "15.5",
+        "loai": "Hoa quả"
+    },
+    {
+        "ten": "Chuối sấy",
+        "don_vi_tinh": "1 đĩa nhỏ",
+        "calo": "250",
+        "protein": "",
+        "lipit": "1.8",
+        "carbohydrat": "10.7",
+        "fiber": "37.5",
+        "loai": "Hoa quả sấy"
+    },
+    {
+        "ten": "Mít sấy",
+        "don_vi_tinh": "1 đĩa nhỏ",
+        "calo": "106",
+        "protein": "",
+        "lipit": "1.8",
+        "carbohydrat": "2.7",
+        "fiber": "19.4",
+        "loai": "Hoa quả sấy"
+    },
+    {
+        "ten": "Vú sữa",
+        "don_vi_tinh": "1 trái",
+        "calo": "83",
+        "protein": "",
+        "lipit": "2",
+        "carbohydrat": "0",
+        "fiber": "18.5",
+        "loai": "Hoa quả"
+    },
+    {
+        "ten": "Ổi",
+        "don_vi_tinh": "1 trái",
+        "calo": "53",
+        "protein": "",
+        "lipit": "1",
+        "carbohydrat": "0",
+        "fiber": "12.3",
+        "loai": "Hoa quả"
+    },
+    {
+        "ten": "Thanh long",
+        "don_vi_tinh": "1 trái",
+        "calo": "225",
+        "protein": "",
+        "lipit": "7.3",
+        "carbohydrat": "0",
+        "fiber": "49",
+        "loai": "Hoa quả"
+    },
+    {
+        "ten": "Mận đỏ",
+        "don_vi_tinh": "1 trái",
+        "calo": "11",
+        "protein": "",
+        "lipit": "0.3",
+        "carbohydrat": "0",
+        "fiber": "2.5",
+        "loai": "Hoa quả"
+    },
+    {
+        "ten": "Củ sắn",
+        "don_vi_tinh": "1 củ",
+        "calo": "52",
+        "protein": "",
+        "lipit": "1.9",
+        "carbohydrat": "0",
+        "fiber": "11.1",
+        "loai": "Rau, củ"
+    }
+]
