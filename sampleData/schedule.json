@@ -1,0 +1,43 @@
+{
+    "name": "quanlhn",
+    "phoneNumber": "123456789",
+    "email": "quanlhn@gmail.com",
+    "gender": "male",
+    "birth": "2024-05-15T09:37:28.330Z",
+    "goalsLv1": {
+        "label": "Giảm cân",
+        "goal": "lose-weight",
+        "level": 1
+    },
+    "goalsLv2": {
+        "label": "Tăng cơ",
+        "goal": "gain-muscle",
+        "level": 2
+    },
+    "goalsLv3": {
+        "goal": "",
+        "label": "",
+        "level": 2
+    },
+    "barriersLv": [
+        "lack-of-time",
+        "hard-regimen",
+        "hard-foodchoice"
+    ],
+    "wishes": [
+        "bulk-up"
+    ],
+    "baseActivity": 1.465,
+    "stepsPerDay": 0,
+    "height": 170,
+    "weight": 170,
+    "goalWeight": 80,
+    "weeklyGoal": 0,
+    "levelExercise": "intermediate",
+    "daysPerWeek": 4,
+    "periods": 1,
+    "availableExercises": [
+        "jumping-rope",
+        "bodyweight"
+    ]
+}
