@@ -47,8 +47,35 @@ const addMultipleExercises = (req, res, next) => {
     })
 }
 
+
+
+const getExercises = (req, res, next) => {
+    Exercises.find({_id: req.body.exerciseId})
+    .then(exercise => {
+        res.json({
+            exercise
+        })
+    })
+    .catch((err) => {
+        console.log('getWorkoutExercises failed')
+    })
+}
+
+const getWorkoutExercises = (req, res, next) => {
+    WorkoutExercises.find({_id: req.body.workoutId})
+    .then(workouts => {
+        res.json({
+            workouts
+        })
+    })
+    .catch((err) => {
+        console.log('getWorkoutExercises failed')
+    })
+}
+
 module.exports = {
     addExercise,
-    addMultipleExercises
-
+    addMultipleExercises,
+    getWorkoutExercises,
+    getExercises
 }

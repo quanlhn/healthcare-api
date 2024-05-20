@@ -15,5 +15,6 @@ router.get('/getDistinctFood', CaloriesCalController.getDistinctFood)
 router.get('/getDistinctDish', CaloriesCalController.getDistinctDish)
 router.get('/getDistinctDishUnit', CaloriesCalController.getDistinctDishUnit)
 router.get('/getDistinctUnit', CaloriesCalController.getDistinctUnit)
+router.post('/getDishById', CaloriesCalController.getDishById)
 
 module.exports = router

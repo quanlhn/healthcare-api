@@ -4,12 +4,30 @@ const Exercises = require('../models/exercises')
 const Schedule = require('../models/schedule')
 const Dish = require('../models/dishCalories')
 const MealPlan = require('../models/mealPlan')
+const User = require('../models/User')
+const bcrypt = require('bcryptjs')
+const util = require('util');
+const { ObjectId } = require('mongodb')
+const hashAsync = util.promisify(bcrypt.hash);
+
+const getSchedule = (req, res, next) => {
+    Schedule.find({_id: req.body.scheduleId})
+    .then(schedule => {
+        res.json({
+            schedule
+        })
+    })
+    .catch((err) => {
+        console.log('getSchedule failed')
+    })
+}
 
 const generateSchedule = async (req, res, next) => {
     const {
         name,
         phoneNumber,
         email,
+        password, //check lại ở fe
         gender, 
         birth,
         goalsLv1,
@@ -28,38 +46,96 @@ const generateSchedule = async (req, res, next) => {
         periods,
         availableExercises,
     } = req.body
-    // Tính TDEE => calo chênh lệnh từng ngày
-    // tdee + calo đốt cháy khi tập  - calo hấp thụ = calo chênh lệch từng ngày
-    // Lọc exercises: availableEx => goalsLv2 => wishes & barriers => 
-    // giảm cân >> gain-muscle | gain-flexibility >> 
 
+    //register
+    const userData = await register(name, email, phoneNumber, password, gender, birth)    
+    if (userData.success) {
+        res.json({
+            userData
+        })
 
-    const currentDate = new Date()
-    const dateOfBirth = new Date(birth)
-    const age = currentDate.getUTCFullYear() - dateOfBirth.getUTCFullYear()
-    const amr = getAMR(gender, height, weight, age, baseActivity)
+        setImmediate(async() => {
+                // Tính TDEE => calo chênh lệnh từng ngày
+            // tdee + calo đốt cháy khi tập  - calo hấp thụ = calo chênh lệch từng ngày
+            // Lọc exercises: availableEx => goalsLv2 => wishes & barriers => 
+            // giảm cân >> gain-muscle | gain-flexibility >> 
+            const currentDate = new Date()
+            const dateOfBirth = new Date(birth)
+            const age = currentDate.getUTCFullYear() - dateOfBirth.getUTCFullYear()
+            const amr = getAMR(gender, height, weight, age, baseActivity)
+            const weekActive =  weeklyGoal == 0 || Math.round(Math.abs((weight - goalWeight) / weeklyGoal)) == 0 ? 3 : Math.floor(Math.abs((weight - goalWeight) / weeklyGoal))
+            //lọc exercises
+            const exercisesLv1 = await getAvailableExercises(availableExercises)
+            const workoutSchedule = goalsLv1 == "lose-weight" 
+                                    ? await loseWeightExSchedule(goalsLv2, goalsLv3, daysPerWeek, periods, exercisesLv1, levelExercise, weekActive, weight, amr, weeklyGoal, goalsLv1)
+                                    : await dailyExercises(goalsLv2, goalsLv3, daysPerWeek, periods, exercisesLv1, levelExercise, weekActive, weight, amr, weeklyGoal, goalsLv1)
+            const schedule = new Schedule({
+                days: workoutSchedule,
+                userId: userData.user._id,
+                process: 'doing',
+                goalsLv1,
+                goalsLv2,
+                goalsLv3,
+                barriers: barriersLv,
+                wishes,
+                height,
+                weight,
+                goalWeight,
+                weeklyGoal,
+                baseActivity,
+                levelExercise,
+                daysPerWeek,
+                periods,
+                availableExercises,
+            })
 
-    const weekActive = Math.floor(Math.abs((weight - goalWeight) / weeklyGoal))
-    
-
-    //lọc exercises
-
-    const exercisesLv1 = await getAvailableExercises(availableExercises)
-    const workoutSchedule = goalsLv1 == "lose-weight" 
-                            ? await loseWeightExSchedule(goalsLv2, daysPerWeek, periods, exercisesLv1, levelExercise, weekActive, weight, amr, weeklyGoal, goalsLv1)
-                            : await dailyExercises(goalsLv2, daysPerWeek, periods, exercisesLv1, levelExercise, weekActive, weight)
-
-    res.json({
-        amr,
-        workoutSchedule
-    })
-
-    console.log('hihi')
+            try {
+                const newSchedule = await schedule.save()
+                await User.findByIdAndUpdate(userData.user._id, {$set: {schedule: newSchedule._id}})
+                console.log('schedule generate successfully')
+            } catch (err) {
+                console.log(err);
+            }
+        })
+    }
 
 
 }
 
- const loseWeightExSchedule =  async (goalsLv2, daysPerWeek, periods, exercisesLv1, levelExercise, weekActive, weight, amr, weeklyGoal, goalsLv1) => {
+const register = async (name, email, phone, password, gender, birth) => {
+    try {
+        const hashedPass = await hashAsync(password, 10);
+        let user = new User({
+            name: name,
+            email: email,
+            phone: phone,
+            password: hashedPass,
+            role: 'user',
+            gender,
+            birth
+        });
+
+        if (!user.name || !user.email || !user.password || !user.password) { 
+            // Xử lý lỗi khi dữ liệu không hợp lệ
+        }
+
+        await user.save();
+        console.log(user.name);
+        return {
+            message: 'user registered successfully',
+            success: true,
+            user
+        };
+    } catch(err) {
+        console.log('an error occured', err);
+        return {
+            message: 'user registered failed',
+            success: false,
+        };
+    }
+};
+
+ const loseWeightExSchedule =  async (goalsLv2, goalsLv3, daysPerWeek, periods, exercisesLv1, levelExercise, weekActive, weight, amr, weeklyGoal, goalsLv1) => {
     if ((goalsLv2 != 'gain-muscle' && goalsLv2 != 'gain-flexibility') || daysPerWeek < 4) {
         const canUseEx = []
          exercisesLv1.forEach((ex) => {
@@ -123,7 +199,7 @@ const generateSchedule = async (req, res, next) => {
 
         return daysSchedule
 
-    } else if (goalsLv2 == 'gain-muscle'){
+    } else if (goalsLv2 == 'gain-muscle' || goalsLv3 == 'gain-muscle'){
         if (periods <= 0.5) {
             // full strength
             const canUseEx = []
@@ -141,6 +217,7 @@ const generateSchedule = async (req, res, next) => {
             for (const [index, day] of daysPractice.entries()) {
                 if (day) {
                     const muscleGroupEx = []
+                    
                     const todayWorkoutGroup = getTodayWorkoutGroup(i)
                     if (todayWorkoutGroup == "arm") {
                         canUseEx.forEach((ex) => {
@@ -166,7 +243,7 @@ const generateSchedule = async (req, res, next) => {
                         restTime: 2
                     });
 
-                    const caloNeededToday = originCaloSchedule[index] + calorieBurned
+                    const caloNeededToday = originCaloSchedule[index] + getStrengthCalorie(todayWorkoutExs, weight)
                     const mealPlan = new MealPlan(await todayMeals(caloNeededToday, index))
         
                     try {
@@ -176,7 +253,7 @@ const generateSchedule = async (req, res, next) => {
                             date: getDateAfterDays(index),
                             mealPlan: meal._id,
                             workoutExercises: workout._id,
-                            calories: meal.calo - (amr + calorieBurned)
+                            calories: meal.calo - (amr + getStrengthCalorie(todayWorkoutExs, weight))
                         });
                     } catch (err) {
                         console.log(err);
@@ -247,7 +324,7 @@ const generateSchedule = async (req, res, next) => {
 
 
                     const workoutExercises = new WorkoutExercises(strengWorkout);
-                    const caloNeededToday = originCaloSchedule[index] + calorieBurned
+                    const caloNeededToday = originCaloSchedule[index] + getStrengthCalorie(todayWorkoutExs, weight) + afterStrengthEx.met * weight * 20 / 60
                     const mealPlan = new MealPlan(await todayMeals(caloNeededToday, index)) 
 
                     try {
@@ -257,7 +334,7 @@ const generateSchedule = async (req, res, next) => {
                             date: getDateAfterDays(index),
                             mealPlan: meal._id,
                             workoutExercises: workout._id,
-                            calories: meal.calo - (amr + calorieBurned)
+                            calories: meal.calo - (amr + getStrengthCalorie(todayWorkoutExs, weight) + afterStrengthEx.met * weight * 20 / 60)
                     });
                     } catch (err) {
                         console.log(err);
@@ -284,7 +361,7 @@ const generateSchedule = async (req, res, next) => {
             return daysSchedule
         }
 
-    } else if (goalsLv2 == 'gain-flexibility') {
+    } else if (goalsLv2 == 'gain-flexibility' || goalsLv3 == 'gain-flexibility') {
         if (periods <= 0.5) {
             //full flexibility
             const canUseEx = []
@@ -301,7 +378,6 @@ const generateSchedule = async (req, res, next) => {
             for (const [index, day] of daysPractice.entries()) {
                 if (day) {
                     const todayFlexEx = canUseEx
-
                     const todayWorkoutExs = getRandom25El(todayFlexEx)
                     const workoutExercises = new WorkoutExercises({
                         date: getDateAfterDays(index),
@@ -311,7 +387,7 @@ const generateSchedule = async (req, res, next) => {
                         restTime: 0.5
                     });
 
-                    const caloNeededToday = originCaloSchedule[index] + calorieBurned
+                    const caloNeededToday = originCaloSchedule[index] + getFlexCalorie(todayWorkoutExs, weight)
                     const mealPlan = new MealPlan(await todayMeals(caloNeededToday, index))
         
                     try {
@@ -321,7 +397,7 @@ const generateSchedule = async (req, res, next) => {
                             date: getDateAfterDays(index),
                             mealPlan: meal._id,
                             workoutExercises: workout._id,
-                            calories: meal.calo - (amr + calorieBurned)
+                            calories: meal.calo - (amr + getFlexCalorie(todayWorkoutExs, weight))
                         });
                     } catch (err) {
                         console.log(err);
@@ -381,7 +457,7 @@ const generateSchedule = async (req, res, next) => {
                     }
 
                     const workoutExercises = new WorkoutExercises(strengWorkout);
-                    const caloNeededToday = originCaloSchedule[index] + calorieBurned
+                    const caloNeededToday = originCaloSchedule[index] + getFlexCalorie(todayWorkoutExs, weight) + afterFlexEx.met * weight * 20 / 60
                     const mealPlan = new MealPlan(await todayMeals(caloNeededToday, index))
 
                     try {
@@ -391,7 +467,7 @@ const generateSchedule = async (req, res, next) => {
                             date: getDateAfterDays(index),
                             mealPlan: meal._id,
                             workoutExercises: workout._id,
-                            calories: meal.calo - (amr + calorieBurned)
+                            calories: meal.calo - (amr + getFlexCalorie(todayWorkoutExs, weight) + afterFlexEx.met * weight * 20 / 60)
                         });
                     } catch (err) {
                         console.log(err);
@@ -486,10 +562,11 @@ const generateSchedule = async (req, res, next) => {
     }
 }
 
-const dailyExercises = async (goalsLv2, daysPerWeek, periods, exercisesLv1, levelExercise, weekActive, weight) => {
+const dailyExercises = async (goalsLv2, goalsLv3, daysPerWeek, periods, exercisesLv1, levelExercise, weekActive, weight, amr, weeklyGoal, goalsLv1) => {
     // full strength
-    if (goalsLv2 == "gain-muscle") {
+    if (goalsLv2 == "gain-muscle" || goalsLv3 == "gain-muscle") {
         // full strength
+        console.log('full strength')
         const canUseEx = []
             exercisesLv1.forEach((ex) => {
                 if (ex.category == "strength") {
@@ -529,7 +606,7 @@ const dailyExercises = async (goalsLv2, daysPerWeek, periods, exercisesLv1, leve
                         restTime: 2
                     });
 
-                    const caloNeededToday = originCaloSchedule[index] + calorieBurned
+                    const caloNeededToday = originCaloSchedule[index] + getStrengthCalorie(todayWorkoutExs, weight)
                     const mealPlan = new MealPlan(await todayMeals(caloNeededToday, index))
         
                     try {
@@ -539,7 +616,7 @@ const dailyExercises = async (goalsLv2, daysPerWeek, periods, exercisesLv1, leve
                             date: getDateAfterDays(index),
                             mealPlan: meal._id,
                             workoutExercises: workout._id,
-                            calories: meal.calo - (amr + calorieBurned)
+                            calories: meal.calo - (amr + getStrengthCalorie(todayWorkoutExs, weight))
                         });
                     } catch (err) {
                         console.log(err);
@@ -564,24 +641,23 @@ const dailyExercises = async (goalsLv2, daysPerWeek, periods, exercisesLv1, leve
             }
     
             return daysSchedule
-    }
-    // full flexibility
-    if (goalsLv2 == "gain-flexibility") {
+    } else if (goalsLv2 == "gain-flexibility" || goalsLv3 == "gain-flexibility") {
+            // full flexibility
+        console.log('full flex')
         const canUseEx = []
         exercisesLv1.forEach((ex) => {
             if (ex.category == "flexibility") {
                 canUseEx.push(ex)
             }
         })
-
         let daysPractice = Array.from({ length: weekActive }, () => generateExDay(daysPerWeek)).flat()
         let originCaloSchedule = Array.from({length: weekActive}, () => caloIntakeInWeeks(amr, weeklyGoal, goalsLv1)).flat()
+        console.log(originCaloSchedule)
         const daysSchedule = []
         let i = 0;
         for (const [index, day] of daysPractice.entries()) {
             if (day) {
                 const todayFlexEx = canUseEx
-
                 const todayWorkoutExs = getRandom25El(todayFlexEx)
                 const workoutExercises = new WorkoutExercises({
                     date: getDateAfterDays(index),
@@ -591,7 +667,7 @@ const dailyExercises = async (goalsLv2, daysPerWeek, periods, exercisesLv1, leve
                     restTime: 0.5
                 });
 
-                const caloNeededToday = originCaloSchedule[index] + calorieBurned
+                const caloNeededToday = originCaloSchedule[index] + getFlexCalorie(todayWorkoutExs, weight)
                 const mealPlan = new MealPlan(await todayMeals(caloNeededToday, index))
     
                 try {
@@ -601,7 +677,7 @@ const dailyExercises = async (goalsLv2, daysPerWeek, periods, exercisesLv1, leve
                         date: getDateAfterDays(index),
                         mealPlan: meal._id,
                         workoutExercises: workout._id,
-                        calories: meal.calo - (amr + calorieBurned)
+                        calories: meal.calo - (amr + getFlexCalorie(todayWorkoutExs, weight))
                     });
                 } catch (err) {
                     console.log(err);
@@ -626,69 +702,70 @@ const dailyExercises = async (goalsLv2, daysPerWeek, periods, exercisesLv1, leve
         }
     
         return daysSchedule
-    }
-
-    // other
-    // full endurance
-    const canUseEx = []
-    exercisesLv1.forEach((ex) => {
-        if (ex.type == 'football' || ex.type == "badminton" || ex.type == "basketball") {
-            canUseEx.push(ex)
-        } else {
-            if (ex.category == "endurance" && ex.difficultyLevel == levelExercise) {
+    } else  {
+        console.log('full endurance')
+        const canUseEx = []
+        exercisesLv1.forEach((ex) => {
+            if (ex.type == 'football' || ex.type == "badminton" || ex.type == "basketball") {
                 canUseEx.push(ex)
+            } else {
+                if (ex.category == "endurance" && ex.difficultyLevel == levelExercise) {
+                    canUseEx.push(ex)
+                }
+            }
+        })
+        let daysPractice = Array.from({ length: weekActive }, () => generateExDay(daysPerWeek)).flat()
+        let originCaloSchedule = Array.from({length: weekActive}, () => caloIntakeInWeeks(amr, weeklyGoal, goalsLv1)).flat()
+        const daysSchedule = []
+
+
+        for (const [index, day] of daysPractice.entries()) {
+            if (day) {
+                const currentEx = getRandomElement(canUseEx);
+                const calorieBurned = weight * currentEx.met * periods;
+                const workoutExercises = new WorkoutExercises({
+                    date: getDateAfterDays(index),
+                    exerciseID: currentEx._id,
+                    totalDuration: periods,
+                    calorieBurned,
+                    restTime: 0
+                });
+
+                const caloNeededToday = originCaloSchedule[index] + calorieBurned
+                const mealPlan = new MealPlan(await todayMeals(caloNeededToday, index))
+
+                try {
+                    const workout = await workoutExercises.save();
+                    const meal = await mealPlan.save()
+                    daysSchedule.push({
+                        date: getDateAfterDays(index),
+                        mealPlan: meal._id,
+                        workoutExercises: workout._id,
+                        calories: meal.calo - (amr + calorieBurned)
+                    });
+                } catch (err) {
+                    console.log(err);
+                } 
+            } else {
+                const caloNeededToday = originCaloSchedule[index]
+                const mealPlan = new MealPlan(await todayMeals(caloNeededToday, index))
+                try{
+                    const meal = await mealPlan.save()
+                    daysSchedule.push({
+                        date: getDateAfterDays(index),
+                        mealPlan: meal._id,
+                        calories: meal.calo - amr
+                    });
+                } catch (err) {
+                    console.log(err);
+                }
             }
         }
-    })
-    let daysPractice = Array.from({ length: weekActive }, () => generateExDay(daysPerWeek)).flat()
-    let originCaloSchedule = Array.from({length: weekActive}, () => caloIntakeInWeeks(amr, weeklyGoal, goalsLv1)).flat()
-    const daysSchedule = []
 
-
-    for (const [index, day] of daysPractice.entries()) {
-        if (day) {
-            const currentEx = getRandomElement(canUseEx);
-            const calorieBurned = weight * currentEx.met * periods;
-            const workoutExercises = new WorkoutExercises({
-                date: getDateAfterDays(index),
-                exerciseID: currentEx._id,
-                totalDuration: periods,
-                calorieBurned,
-                restTime: 0
-            });
-
-            const caloNeededToday = originCaloSchedule[index] + calorieBurned
-            const mealPlan = new MealPlan(await todayMeals(caloNeededToday, index))
-
-            try {
-                const workout = await workoutExercises.save();
-                const meal = await mealPlan.save()
-                daysSchedule.push({
-                    date: getDateAfterDays(index),
-                    mealPlan: meal._id,
-                    workoutExercises: workout._id,
-                    calories: meal.calo - (amr + calorieBurned)
-                });
-            } catch (err) {
-                console.log(err);
-            } 
-        } else {
-            const caloNeededToday = originCaloSchedule[index]
-            const mealPlan = new MealPlan(await todayMeals(caloNeededToday, index))
-            try{
-                const meal = await mealPlan.save()
-                daysSchedule.push({
-                    date: getDateAfterDays(index),
-                    mealPlan: meal._id,
-                    calories: meal.calo - amr
-                });
-            } catch (err) {
-                console.log(err);
-            }
-        }
+        return daysSchedule
     }
-
-    return daysSchedule
+    // full endurance
+    
 
 }
 
@@ -764,12 +841,16 @@ const todayMeals = async (caloNeededToday, index) => {
     const returnMeals = mealPlan.map((m) => {
         return {
             name: m.name, 
-            dishes: m.dishes.map((mm) => {
+            dishes: m.dishes ? m.dishes.map((mm) => {
                 return {
                     id: mm.dish._id,
                     amount: mm.amount
                 }
             })
+            : [{
+                id: new ObjectId(),
+                amount: 0
+            }]
         }
     })
 
@@ -1396,7 +1477,7 @@ const getAvailableExercises = async (types) => {
 // 
 
 const caloIntakeInWeeks = (amr, kgPerWeek, goal) => {
-    const gain = goal == "gain-weight" ? true : false
+    const gain = goal == "lose-weight" ? false : true
     // averageCalo : calorie trung bình mỗi ngày cần để tăng/giảm/giữ cân
     const averageCalo = getSuggestCalo(amr, kgPerWeek, gain)
     if (gain) {
@@ -1429,5 +1510,5 @@ const KgToCalorie = (kg) => {
 }
 
 module.exports = {
-    generateSchedule
+    generateSchedule, getSchedule
 }

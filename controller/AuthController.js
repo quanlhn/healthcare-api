@@ -52,7 +52,7 @@ const login = (req, res, next) => {
                 if (result) {
                     let token = jwt.sign({name: user.name}, 'Quanlhn22012002', {expiresIn: '30s'})
                     let refreshToken = jwt.sign({name: user.name}, 'refreshtokensecret', {expiresIn: '48h'})
-                    console.log(user.name)
+                    console.log(user)
                     res.json({
                         message: 'Login Successfully!',
                         token,
@@ -62,7 +62,10 @@ const login = (req, res, next) => {
                         name: user.name,
                         email: user.email,
                         phone: user.phone,
-                        role: user.role
+                        role: user.role,
+                        schedule: user.schedule,
+                        gender: user.gender,
+                        birth: user.birth
                     })
                 } else {
                     res.json({

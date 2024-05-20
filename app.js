@@ -22,6 +22,7 @@ const AuthRoute = require('./routes/auth')
 const CaloriesRoute = require('./routes/caloriesCalculate')
 const WorkoutRoute = require('./routes/workout')
 const ScheduleRoute = require('./routes/schedule')
+const MealRoute = require('./routes/mealPlan')
 
 
 // const client = new MongoClient(uri, {
@@ -72,3 +73,4 @@ app.use('/api', AuthRoute)
 app.use('/api/calories-calculate', CaloriesRoute)
 app.use('/api/workout', WorkoutRoute)
 app.use('/api/schedule', ScheduleRoute)
+app.use('/api/mealPlan', MealRoute)

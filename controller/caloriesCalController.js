@@ -242,6 +242,18 @@ const addMultipleDish = (req, res, next) => {
     })
 }
 
+const getDishById = (req, res, next) => {
+    Dish.find({_id: req.body.dishId})
+    .then(dish => {
+        res.json({
+            dish
+        })
+    })
+    .catch((err) => {
+        console.log('getSchedule failed')
+    })
+}
+
 // const setFoodUnit = () => {
 //     Food.updateMany(
 //         {don_vi_tinh: "1 cái"}
@@ -260,5 +272,6 @@ module.exports = {
     getDistinctFood,
     getDistinctUnit,
     getDistinctDish,
-    getDistinctDishUnit
+    getDistinctDishUnit,
+    getDishById
 }

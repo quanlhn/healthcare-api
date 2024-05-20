@@ -14,14 +14,12 @@ const userSchema = new Schema({
     password: {
         type: String
     },
-    cartDrawer: {
-        type: Array
-    },
-    orders: {
-        type: Array
-    },
     role: {
         type: String
+    },
+    schedule: {
+        type: Schema.Types.ObjectId,
+        ref: 'Schedule'
     },
     gender: {
         type: String
