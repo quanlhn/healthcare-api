@@ -28,6 +28,7 @@ jobs:
         run: |
           npm install
           npm start 
+          npm test
 
   deploy:
     name: Deploy
@@ -37,5 +38,4 @@ jobs:
       - name: Deploy
         uses: johnbeynon/render-deploy-action@v0.0.8
         with:
-          service-id: ${{ secrets.SERVICE_ID }}
           api-key: ${{ secrets.RENDER_API_KEY }}
