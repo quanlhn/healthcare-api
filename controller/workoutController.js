@@ -73,9 +73,25 @@ const getWorkoutExercises = (req, res, next) => {
     })
 }
 
+const getExercisesByTypes = (req, res, next) => {
+    const types = req.body.types
+    const query= types.map((type) => ({type: type}))
+    Exercises.find({$or: query})
+    .then(exercises => {
+        res.json({
+            exercises
+        })
+    })
+    .catch((err) => {
+        console.log(err)
+    })
+
+}
+
 module.exports = {
     addExercise,
     addMultipleExercises,
     getWorkoutExercises,
-    getExercises
+    getExercises,
+    getExercisesByTypes
 }

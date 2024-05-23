@@ -5,9 +5,6 @@ const morgan =  require('morgan')
 const bodyParser = require('body-parser')
 const mongoose = require('mongoose')
 
-// const { MongoClient, ServerApiVersion } = require('mongodb');
-// const uri = "mongodb+srv://quanlhn:fZ0vxQopCN5K5gPs@healthcare.2c6h4te.mongodb.net/?retryWrites=true&w=majority&appName=healthcare";
-
 mongoose.connect("mongodb+srv://quanlhn:fZ0vxQopCN5K5gPs@healthcare.2c6h4te.mongodb.net/?retryWrites=true&w=majority&appName=healthcare")
 const db = mongoose.connection
 db.on('error', (err) => {
@@ -23,6 +20,8 @@ const CaloriesRoute = require('./routes/caloriesCalculate')
 const WorkoutRoute = require('./routes/workout')
 const ScheduleRoute = require('./routes/schedule')
 const MealRoute = require('./routes/mealPlan')
+const DiaryRoute = require('./routes/diary')
+
 
 
 // const client = new MongoClient(uri, {
@@ -74,3 +73,4 @@ app.use('/api/calories-calculate', CaloriesRoute)
 app.use('/api/workout', WorkoutRoute)
 app.use('/api/schedule', ScheduleRoute)
 app.use('/api/mealPlan', MealRoute)
+app.use('/api/diary', DiaryRoute)

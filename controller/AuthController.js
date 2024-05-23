@@ -102,83 +102,16 @@ const refreshToken = (req, res, next) => {
     })
 }
 
-const updateCart = (req, res, next) => {
-    let userID = req.body.userID
-    let updatedData = {
-        cartDrawer: req.body.cartDrawer
+const logout = async (req, res, next) => {
+    try {
+      res.clearCookie("refreshtoken");
+      return res.status(204);
+    } catch (err) {
+      if (!err.statusCode) {
+        err.statusCode = 500;
+      }
+      next(err);
     }
-
-    User.findByIdAndUpdate(userID, {$set: updatedData})
-    .then(response => {
-        res.json({
-            message: 'Cart updated successfully!',
-        })
-    })
-    .catch(err => {
-        res.json({
-            message: 'An error occured!'
-        })
-    })
-}
-
-const addOrder = (req, res, order) => {
-    console.log(order)
-    let userID = req.body.userID
-    User.findById(userID)
-    .then(response => {
-        let updatedData = {
-            orders: [...response.orders, order]
-        }
-        User.findByIdAndUpdate(userID, {$set: updatedData})
-        // .then(response2 => {
-        //     res.json({
-        //         message: 'Updated order successfully'
-        //     })
-        // })
-        .catch(err => {
-            res.json({
-                message: 'error in fineAndUpdate'
-            })
-        })
-    })
-    .catch(err => {
-        res.json({
-            message: 'An error occured!'
-        })
-    })
-}
-
-const updateOrder = (req, res, userID) => {
-    // let userID = req.body.userID
-    let orderID = req.body.orderID
-    let status = req.body.status
-   
-    User.findOneAndUpdate( {_id: userID},
-        { $set: { 'orders.$[elem].status': status } },
-        { 
-            arrayFilters: [{ "elem._id": new mongoose.Types.ObjectId(orderID) }]
-        }
-    )
-    .catch(err => {
-        res.json({
-            message: 'An error occured!'
-        })
-    })
-    
-}
-
-const findStaffs = (req, res, next) => {
-    User.find({ role: 'staff' }).exec()
-    .then(response => {
-        res.json({
-            response
-        })
-    })
-    .catch(err => {
-        res.json({
-            message: "An error occurred!"
-        })
-    })
 }
 
 const deleteUser = (req, res, next) => {
@@ -223,6 +156,8 @@ const updateUser = (req, res, next) => {
 
 
 
+
+
 module.exports = {
-    register, login, refreshToken, updateCart, addOrder, updateOrder, findStaffs, deleteUser, updateUser
+    register, login, refreshToken, deleteUser, updateUser, logout
 }
